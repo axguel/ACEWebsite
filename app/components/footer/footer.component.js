@@ -9,19 +9,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var NavbarComponent = (function () {
-    function NavbarComponent() {
-        this.branding = 'The Academy of Creating Enterprise';
+var FooterComponent = (function () {
+    function FooterComponent() {
+        this.footerCopyright = "Copyright";
+        this.footerTerms = "Terms and Conditions";
+        this.footerDonateUrl = "donate";
+        this.footerHomeUrl = "/";
     }
-    NavbarComponent = __decorate([
+    FooterComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'navbar',
-            templateUrl: 'navbar.component.html'
+            selector: 'foot',
+            templateUrl: 'footer.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], NavbarComponent);
-    return NavbarComponent;
+    ], FooterComponent);
+    return FooterComponent;
 }());
-exports.NavbarComponent = NavbarComponent;
-//# sourceMappingURL=navbar.component.js.map
+exports.FooterComponent = FooterComponent;
+//# sourceMappingURL=footer.component.js.map

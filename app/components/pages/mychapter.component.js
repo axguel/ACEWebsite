@@ -9,19 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var NavbarComponent = (function () {
-    function NavbarComponent() {
-        this.branding = 'The Academy of Creating Enterprise';
+var MyChapterComponent = (function () {
+    function MyChapterComponent() {
     }
-    NavbarComponent = __decorate([
+    MyChapterComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'navbar',
-            templateUrl: 'navbar.component.html'
+            selector: 'mychapter',
+            templateUrl: 'mychapter.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], NavbarComponent);
-    return NavbarComponent;
+    ], MyChapterComponent);
+    return MyChapterComponent;
 }());
-exports.NavbarComponent = NavbarComponent;
-//# sourceMappingURL=navbar.component.js.map
+exports.MyChapterComponent = MyChapterComponent;
+//# sourceMappingURL=mychapter.component.js.map

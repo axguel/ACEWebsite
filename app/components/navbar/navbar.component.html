@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse">
+<nav class="navbar home-navbar">
     <div class="container">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -12,7 +12,60 @@
     <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
         <li><a routerLink="/">Home</a></li>
-        <li><a routerLink="/about">About</a></li>
+        <li class="dropdown">
+            <a routerLink="/about" class="dropbtn">About Us</a>
+            <div class="dropdown-content">
+                <a href="#">History</a>
+                <a href="#">Articles of Belief</a>
+                <a href="#">Our Mission</a>
+                <a href="#">Our Team</a>
+                <a href="#">Our Curriculum</a>
+                <a href="#">Locations</a>
+                <a href="#">Prospective Students</a>
+                <a href="#">Annual Events</a>
+                <a href="#">FAQ</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a routerLink="/donors" class="dropbtn">Donors</a>
+            <div class="dropdown-content">
+                <a href="#">Success Stories</a>
+                <a href="#">Our Team</a>
+                <a href="#">990 Form</a>
+                <a href="#">Donation Form</a>
+                <a href="#">Charity Ranking</a>
+                <a href="#">Websites Info</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a routerLink="/mychapter" class="dropbtn">My Chapter</a>
+            <div class="dropdown-content">
+                <a href="#">Register</a>
+                <a href="#">Find My Chapter</a>
+                <a href="#">Directory</a>
+                <a href="#">Forum</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a routerLink="/chapterleaders" class="dropbtn">Chapter Leaders</a>
+            <div class="dropdown-content">
+                <a href="#">Chapter Leader Training</a>
+                <a href="#">Monthly Agendas</a>
+                <a href="#">Reporting</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a routerLink="/businessresources" class="dropbtn">Business Resources</a>
+            <div class="dropdown-content">
+                <a href="#">Search</a>
+                <a href="#">Grow My Business Curriculum</a>
+                <a href="#">Business Setup</a>
+                <a href="#">Business Management</a>
+                <a href="#">Business/Social Skills</a>
+            </div>
+        </li>
+        <li><a routerLink="/contact">Contact Us</a></li>
+        <li><a routerLink="/">Donate</a></li>
         </ul>
     </div><!--/.nav-collapse -->
     </div>
