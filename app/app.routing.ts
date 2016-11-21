@@ -9,6 +9,9 @@ import {ChapterLeadersComponent} from './components/pages/chapterleaders.compone
 import {BusinessResourcesComponent} from './components/pages/businessresources.component';
 import {ContactComponent} from './components/pages/contact.component';
 
+//subpages
+import {AgendaComponent} from './components/pages/subpages/agenda.component';
+
 const appRoutes: Routes = [
     {
         path:'',
@@ -37,6 +40,10 @@ const appRoutes: Routes = [
     {
         path:'contact',
         component:ContactComponent
+    },
+    {
+        path:'monthlyagendas',
+        component:AgendaComponent
     }
 ];
 

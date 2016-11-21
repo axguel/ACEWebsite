@@ -7,6 +7,8 @@ var mychapter_component_1 = require('./components/pages/mychapter.component');
 var chapterleaders_component_1 = require('./components/pages/chapterleaders.component');
 var businessresources_component_1 = require('./components/pages/businessresources.component');
 var contact_component_1 = require('./components/pages/contact.component');
+//subpages
+var agenda_component_1 = require('./components/pages/subpages/agenda.component');
 var appRoutes = [
     {
         path: '',
@@ -35,6 +37,10 @@ var appRoutes = [
     {
         path: 'contact',
         component: contact_component_1.ContactComponent
+    },
+    {
+        path: 'monthlyagendas',
+        component: agenda_component_1.AgendaComponent
     }
 ];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);

@@ -11,9 +11,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var app_component_1 = require('./app.component');
+//page components
 var navbar_component_1 = require('./components/navbar/navbar.component');
 var jumbotron_component_1 = require('./components/jumbotron/jumbotron.component');
 var footer_component_1 = require('./components/footer/footer.component');
+//the main pages
 var home_component_1 = require('./components/pages/home.component');
 var about_component_1 = require('./components/pages/about.component');
 var donors_component_1 = require('./components/pages/donors.component');
@@ -21,6 +23,9 @@ var mychapter_component_1 = require('./components/pages/mychapter.component');
 var chapterleaders_component_1 = require('./components/pages/chapterleaders.component');
 var businessresources_component_1 = require('./components/pages/businessresources.component');
 var contact_component_1 = require('./components/pages/contact.component');
+//subpages
+var agenda_component_1 = require('./components/pages/subpages/agenda.component');
+//routing component
 var app_routing_1 = require('./app.routing');
 var AppModule = (function () {
     function AppModule() {
@@ -38,7 +43,8 @@ var AppModule = (function () {
                 mychapter_component_1.MyChapterComponent,
                 chapterleaders_component_1.ChapterLeadersComponent,
                 businessresources_component_1.BusinessResourcesComponent,
-                contact_component_1.ContactComponent],
+                contact_component_1.ContactComponent,
+                agenda_component_1.AgendaComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

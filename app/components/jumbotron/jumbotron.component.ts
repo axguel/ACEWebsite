@@ -13,8 +13,8 @@ export class JumbotronComponent {
    private jbtBtnUrl:string;
    
    constructor(){
-       this.jbtHeading="Sample Front Page";
-       this.jbtText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ante aliquam, lacinia mauris vitae, dictum mi. Maecenas semper, lectus aliquam condimentum consectetur, turpis sem blandit justo, sit amet euismod libero justo ut felis. ";
+       this.jbtHeading="Purpose of The Academy";
+       this.jbtText = "Founded in 1999 by Steve and Bette Gibson, The Academy for Creating Enterprise is a non-profit organization that seeks to alleviate poverty by teaching students all over the world how to start and grow their own small businesses.";
        this.jbtBtnText = "Read More";
        this.jbtBtnUrl="/about";   
    }

@@ -9,22 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var JumbotronComponent = (function () {
-    function JumbotronComponent() {
-        this.jbtHeading = "Purpose of The Academy";
-        this.jbtText = "Founded in 1999 by Steve and Bette Gibson, The Academy for Creating Enterprise is a non-profit organization that seeks to alleviate poverty by teaching students all over the world how to start and grow their own small businesses.";
-        this.jbtBtnText = "Read More";
-        this.jbtBtnUrl = "/about";
+var AgendaComponent = (function () {
+    function AgendaComponent() {
     }
-    JumbotronComponent = __decorate([
+    AgendaComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'jumbotron',
-            templateUrl: 'jumbotron.component.html'
+            selector: 'monthlyagendas',
+            templateUrl: 'agenda.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], JumbotronComponent);
-    return JumbotronComponent;
+    ], AgendaComponent);
+    return AgendaComponent;
 }());
-exports.JumbotronComponent = JumbotronComponent;
-//# sourceMappingURL=jumbotron.component.js.map
+exports.AgendaComponent = AgendaComponent;
+//# sourceMappingURL=agenda.component.js.map
