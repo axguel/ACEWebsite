@@ -19,6 +19,11 @@ import {ContactComponent} from './components/pages/contact.component';
 
 //subpages
 import {AgendaComponent} from './components/pages/subpages/agenda.component';
+import {LegalitiesComponent} from './components/pages/subpages/legalities.component';
+import {HiringComponent} from './components/pages/subpages/hiring.component';
+import {BuildingComponent} from './components/pages/subpages/building.component';
+import {PsychologyComponent} from './components/pages/subpages/psychology.component';
+import {FinancesComponent} from './components/pages/subpages/finances.component';
 
 //routing component
 import {routing} from './app.routing';
@@ -36,7 +41,12 @@ import {routing} from './app.routing';
                   ChapterLeadersComponent,
                   BusinessResourcesComponent,
                   ContactComponent,
-                  AgendaComponent ],
+                  AgendaComponent,
+                  LegalitiesComponent,
+                  BuildingComponent,
+                  HiringComponent,
+                  PsychologyComponent,
+                  FinancesComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

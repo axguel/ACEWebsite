@@ -25,6 +25,11 @@ var businessresources_component_1 = require('./components/pages/businessresource
 var contact_component_1 = require('./components/pages/contact.component');
 //subpages
 var agenda_component_1 = require('./components/pages/subpages/agenda.component');
+var legalities_component_1 = require('./components/pages/subpages/legalities.component');
+var hiring_component_1 = require('./components/pages/subpages/hiring.component');
+var building_component_1 = require('./components/pages/subpages/building.component');
+var psychology_component_1 = require('./components/pages/subpages/psychology.component');
+var finances_component_1 = require('./components/pages/subpages/finances.component');
 //routing component
 var app_routing_1 = require('./app.routing');
 var AppModule = (function () {
@@ -44,7 +49,12 @@ var AppModule = (function () {
                 chapterleaders_component_1.ChapterLeadersComponent,
                 businessresources_component_1.BusinessResourcesComponent,
                 contact_component_1.ContactComponent,
-                agenda_component_1.AgendaComponent],
+                agenda_component_1.AgendaComponent,
+                legalities_component_1.LegalitiesComponent,
+                building_component_1.BuildingComponent,
+                hiring_component_1.HiringComponent,
+                psychology_component_1.PsychologyComponent,
+                finances_component_1.FinancesComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

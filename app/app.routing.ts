@@ -11,6 +11,11 @@ import {ContactComponent} from './components/pages/contact.component';
 
 //subpages
 import {AgendaComponent} from './components/pages/subpages/agenda.component';
+import {LegalitiesComponent} from './components/pages/subpages/legalities.component';
+import {HiringComponent} from './components/pages/subpages/hiring.component';
+import {BuildingComponent} from './components/pages/subpages/building.component';
+import {PsychologyComponent} from './components/pages/subpages/psychology.component';
+import {FinancesComponent} from './components/pages/subpages/finances.component';
 
 const appRoutes: Routes = [
     {
@@ -44,6 +49,26 @@ const appRoutes: Routes = [
     {
         path:'monthlyagendas',
         component:AgendaComponent
+    },
+    {
+        path:'legalities',
+        component:LegalitiesComponent
+    },
+    {
+        path:'building',
+        component:BuildingComponent
+    },
+    {
+        path:'hiring',
+        component:HiringComponent
+    },
+    {
+        path:'psychology',
+        component:PsychologyComponent
+    },
+    {
+        path:'finances',
+        component:FinancesComponent
     }
 ];
 

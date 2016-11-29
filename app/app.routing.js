@@ -9,6 +9,11 @@ var businessresources_component_1 = require('./components/pages/businessresource
 var contact_component_1 = require('./components/pages/contact.component');
 //subpages
 var agenda_component_1 = require('./components/pages/subpages/agenda.component');
+var legalities_component_1 = require('./components/pages/subpages/legalities.component');
+var hiring_component_1 = require('./components/pages/subpages/hiring.component');
+var building_component_1 = require('./components/pages/subpages/building.component');
+var psychology_component_1 = require('./components/pages/subpages/psychology.component');
+var finances_component_1 = require('./components/pages/subpages/finances.component');
 var appRoutes = [
     {
         path: '',
@@ -41,6 +46,26 @@ var appRoutes = [
     {
         path: 'monthlyagendas',
         component: agenda_component_1.AgendaComponent
+    },
+    {
+        path: 'legalities',
+        component: legalities_component_1.LegalitiesComponent
+    },
+    {
+        path: 'building',
+        component: building_component_1.BuildingComponent
+    },
+    {
+        path: 'hiring',
+        component: hiring_component_1.HiringComponent
+    },
+    {
+        path: 'psychology',
+        component: psychology_component_1.PsychologyComponent
+    },
+    {
+        path: 'finances',
+        component: finances_component_1.FinancesComponent
     }
 ];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);

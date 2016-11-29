@@ -25,6 +25,7 @@ hr{
     border-bottom: 1px solid #b3a3a3;
 }
 
+
 .jumbotron {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -133,4 +134,55 @@ background-color:red;
     padding-bottom:10px;
     border-bottom: 1px solid #b3a3a3;
     font-size:18px;
+}
+
+/*monthlyagenda*/
+
+.month{
+    font-size: 26px;
+    padding-top:3rem;
+    padding-bottom:3rem;
+    color: black;
+    text-align:center;
+}
+
+.red-background{
+    background-color:#a94442;
+}
+
+.docs{
+    text-align: center;
+    color:#333 !important;
+}
+
+/*legalities*/
+.category{
+font-size: 26px;
+color:black;
+text-align:center;
+}
+
+.subcategory{
+color:black;
+text-align:center;
+font-size:20px;
+}
+.subtext{
+    text-align:center; 
+    margin:0 auto;
+}
+
+.hr-style{
+    margin-top:0;
+    margin-bottom:10px;
+    color:black !important;
+}
+.hr-style-red{
+    border-top: 1px solid #c75050;
+    border-bottom:1px solid black;
+}
+.resources{
+    text-align: center;
+    color:#242424 !important;
+    font-size:15px;
 }
