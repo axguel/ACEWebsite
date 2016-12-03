@@ -127,6 +127,8 @@ background-color:red;
   margin-bottom: .75rem;
 }
 
+
+
 /*about us specific*/
 
 .faquestion{
@@ -135,6 +137,19 @@ background-color:red;
     border-bottom: 1px solid #b3a3a3;
     font-size:18px;
 }
+
+.sectiontitle{
+    margin:0 auto; 
+    text-align:center; 
+    max-width:70rem;
+}
+
+
+tr:hover{
+    background-color:#eaeae8 !important;
+}
+
+
 
 /*monthlyagenda*/
 
@@ -147,7 +162,7 @@ background-color:red;
 }
 
 .red-background{
-    background-color:#a94442;
+    background-color:#c14646;
 }
 
 .docs{
