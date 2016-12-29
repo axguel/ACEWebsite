@@ -24,6 +24,9 @@ import {HiringComponent} from './components/pages/subpages/hiring.component';
 import {BuildingComponent} from './components/pages/subpages/building.component';
 import {PsychologyComponent} from './components/pages/subpages/psychology.component';
 import {FinancesComponent} from './components/pages/subpages/finances.component';
+import {LessonsComponent} from './components/pages/subpages/lessons.component';
+import {FindChapterComponent} from './components/pages/subpages/findchapter.component';
+
 
 //routing component
 import {routing} from './app.routing';
@@ -46,7 +49,9 @@ import {routing} from './app.routing';
                   BuildingComponent,
                   HiringComponent,
                   PsychologyComponent,
-                  FinancesComponent ],
+                  FinancesComponent,
+                  LessonsComponent,
+                  FindChapterComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

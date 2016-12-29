@@ -14,6 +14,8 @@ var hiring_component_1 = require('./components/pages/subpages/hiring.component')
 var building_component_1 = require('./components/pages/subpages/building.component');
 var psychology_component_1 = require('./components/pages/subpages/psychology.component');
 var finances_component_1 = require('./components/pages/subpages/finances.component');
+var lessons_component_1 = require('./components/pages/subpages/lessons.component');
+var findchapter_component_1 = require('./components/pages/subpages/findchapter.component');
 var appRoutes = [
     {
         path: '',
@@ -66,6 +68,14 @@ var appRoutes = [
     {
         path: 'finances',
         component: finances_component_1.FinancesComponent
+    },
+    {
+        path: 'lessons',
+        component: lessons_component_1.LessonsComponent
+    },
+    {
+        path: 'findchapter',
+        component: findchapter_component_1.FindChapterComponent
     }
 ];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);

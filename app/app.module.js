@@ -30,6 +30,8 @@ var hiring_component_1 = require('./components/pages/subpages/hiring.component')
 var building_component_1 = require('./components/pages/subpages/building.component');
 var psychology_component_1 = require('./components/pages/subpages/psychology.component');
 var finances_component_1 = require('./components/pages/subpages/finances.component');
+var lessons_component_1 = require('./components/pages/subpages/lessons.component');
+var findchapter_component_1 = require('./components/pages/subpages/findchapter.component');
 //routing component
 var app_routing_1 = require('./app.routing');
 var AppModule = (function () {
@@ -54,7 +56,9 @@ var AppModule = (function () {
                 building_component_1.BuildingComponent,
                 hiring_component_1.HiringComponent,
                 psychology_component_1.PsychologyComponent,
-                finances_component_1.FinancesComponent],
+                finances_component_1.FinancesComponent,
+                lessons_component_1.LessonsComponent,
+                findchapter_component_1.FindChapterComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

@@ -32,7 +32,6 @@
                 <a href="#">Our Team</a>
                 <a href="#">990 Form</a>
                 <a href="#">Donation Form</a>
-                <a href="#">Charity Ranking</a>
                 <a href="#">Websites Info</a>
             </div>
         </li>
@@ -40,7 +39,7 @@
             <a routerLink="/mychapter" class="dropbtn">My Chapter</a>
             <div class="dropdown-content">
                 <a href="#">Register</a>
-                <a href="#">Find My Chapter</a>
+                <a routerLink="/findchapter">Find My Chapter</a>
                 <a href="#">Directory</a>
                 <a href="#">Forum</a>
             </div>
@@ -48,14 +47,16 @@
         <li class="dropdown">
             <a routerLink="/chapterleaders" class="dropbtn">Chapter Leaders</a>
             <div class="dropdown-content">
-                <a href="#">Chapter Leader Training</a>
+                <a href="../app/pdfs/ChapterPresidencyManual.pdf" target="_blank">Chapter Leader Training</a>
                 <a routerLink="/monthlyagendas">Monthly Agendas</a>
                 <a href="#">Reporting</a>
             </div>
         </li>
         <li class="dropdown">
-            <a class="dropbtn">Business Education</a>
+            <a class="dropbtn" routerLink="/businessresources">Business Education</a>
             <div class="dropdown-content">
+                <a routerLink="/lessons">Book of Lessons</a>
+                <a href="#">25 Rules of Thumb Lessons</a>
                 <a routerLink="/legalities">Legalities</a>
                 <a routerLink="/building">Building and Maintaining</a>
                 <a routerLink="/psychology">Psychology</a>

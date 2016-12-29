@@ -16,6 +16,9 @@ import {HiringComponent} from './components/pages/subpages/hiring.component';
 import {BuildingComponent} from './components/pages/subpages/building.component';
 import {PsychologyComponent} from './components/pages/subpages/psychology.component';
 import {FinancesComponent} from './components/pages/subpages/finances.component';
+import {LessonsComponent} from './components/pages/subpages/lessons.component';
+import {FindChapterComponent} from './components/pages/subpages/findchapter.component';
+
 
 const appRoutes: Routes = [
     {
@@ -69,6 +72,14 @@ const appRoutes: Routes = [
     {
         path:'finances',
         component:FinancesComponent
+    },
+    {
+        path:'lessons',
+        component:LessonsComponent
+    },
+    {
+        path:'findchapter',
+        component:FindChapterComponent
     }
 ];
 

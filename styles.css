@@ -16,6 +16,10 @@
 .jumbotron .container {
   max-width: 80rem;
 }
+
+.container{
+    padding-bottom:20px;
+}
 .jumbotron p:last-child {
   margin-bottom: 0;
 }
@@ -24,7 +28,13 @@ hr{
     
     border-bottom: 1px solid #b3a3a3;
 }
+li{
+    padding-bottom:15px;
+}
 
+.btn-center{
+    margin: auto 0;
+}
 
 .jumbotron {
   padding-top: 6rem;
@@ -35,6 +45,10 @@ hr{
 
 .text-primary{
     color:#b21818;
+}
+
+.row{
+    padding-bottom:20px;
 }
 
 
@@ -90,7 +104,7 @@ a:focus, a:hover{
 
 .navbar-brand{
     color:black;
-}
+} 
 
 .btn-primary{
     background-color: #a94442;
@@ -100,6 +114,15 @@ a:focus, a:hover{
 .btn-primary:hover{
 background-color:red;
     border-color:darkred;
+}
+
+.btn-white{
+    background-color:white;
+    border-color:black;
+}
+.btn-white:hover{
+    background-color:lightgray;
+    border-color:black;
 }
 
 /*home page specific*/
@@ -169,6 +192,28 @@ tr:hover{
     text-align: center;
     color:#333 !important;
 }
+
+.photo-spacing{
+    height:280px;
+    width:100%;
+    padding-top:40px;
+}
+
+.btn-agenda{
+    color:white !important;
+}
+
+.btn-agenda-left{
+   margin-left:50px;
+   margin-bottom:10px;
+}
+
+.agenda-title{
+    font-size:15px;
+}
+
+
+
 
 /*legalities*/
 .category{
