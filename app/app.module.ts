@@ -28,6 +28,9 @@ import {LessonsComponent} from './components/pages/subpages/lessons.component';
 import {FindChapterComponent} from './components/pages/subpages/findchapter.component';
 
 
+//lessonspages
+import {LessonsEnglishComponent} from './components/pages/subpages/bookoflessons/lessonsenglish.component';
+
 //routing component
 import {routing} from './app.routing';
 
@@ -51,7 +54,8 @@ import {routing} from './app.routing';
                   PsychologyComponent,
                   FinancesComponent,
                   LessonsComponent,
-                  FindChapterComponent ],
+                  FindChapterComponent,
+                  LessonsEnglishComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

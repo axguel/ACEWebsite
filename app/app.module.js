@@ -32,6 +32,8 @@ var psychology_component_1 = require('./components/pages/subpages/psychology.com
 var finances_component_1 = require('./components/pages/subpages/finances.component');
 var lessons_component_1 = require('./components/pages/subpages/lessons.component');
 var findchapter_component_1 = require('./components/pages/subpages/findchapter.component');
+//lessonspages
+var lessonsenglish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsenglish.component');
 //routing component
 var app_routing_1 = require('./app.routing');
 var AppModule = (function () {
@@ -58,7 +60,8 @@ var AppModule = (function () {
                 psychology_component_1.PsychologyComponent,
                 finances_component_1.FinancesComponent,
                 lessons_component_1.LessonsComponent,
-                findchapter_component_1.FindChapterComponent],
+                findchapter_component_1.FindChapterComponent,
+                lessonsenglish_component_1.LessonsEnglishComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

@@ -20,6 +20,10 @@ import {LessonsComponent} from './components/pages/subpages/lessons.component';
 import {FindChapterComponent} from './components/pages/subpages/findchapter.component';
 
 
+//lessonspages
+import {LessonsEnglishComponent} from './components/pages/subpages/bookoflessons/lessonsenglish.component';
+
+
 const appRoutes: Routes = [
     {
         path:'',
@@ -80,6 +84,10 @@ const appRoutes: Routes = [
     {
         path:'findchapter',
         component:FindChapterComponent
+    },
+    {
+        path:'englishbookoflessons',
+        component:LessonsEnglishComponent
     }
 ];
 

@@ -16,6 +16,8 @@ var psychology_component_1 = require('./components/pages/subpages/psychology.com
 var finances_component_1 = require('./components/pages/subpages/finances.component');
 var lessons_component_1 = require('./components/pages/subpages/lessons.component');
 var findchapter_component_1 = require('./components/pages/subpages/findchapter.component');
+//lessonspages
+var lessonsenglish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsenglish.component');
 var appRoutes = [
     {
         path: '',
@@ -76,6 +78,10 @@ var appRoutes = [
     {
         path: 'findchapter',
         component: findchapter_component_1.FindChapterComponent
+    },
+    {
+        path: 'englishbookoflessons',
+        component: lessonsenglish_component_1.LessonsEnglishComponent
     }
 ];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);
