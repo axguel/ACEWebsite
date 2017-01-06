@@ -14,10 +14,15 @@ var hiring_component_1 = require('./components/pages/subpages/hiring.component')
 var building_component_1 = require('./components/pages/subpages/building.component');
 var psychology_component_1 = require('./components/pages/subpages/psychology.component');
 var finances_component_1 = require('./components/pages/subpages/finances.component');
-var lessons_component_1 = require('./components/pages/subpages/lessons.component');
+var bookoflessons_component_1 = require('./components/pages/subpages/bookoflessons.component');
+var ruleofthumb_component_1 = require('./components/pages/subpages/ruleofthumb.component');
 var findchapter_component_1 = require('./components/pages/subpages/findchapter.component');
 //lessonspages
 var lessonsenglish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsenglish.component');
+var lessonsspanish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsspanish.component');
+//ruleofthumb
+var lessonsenglish_component_2 = require('./components/pages/subpages/ruleofthumb/lessonsenglish.component');
+var lessonsspanish_component_2 = require('./components/pages/subpages/ruleofthumb/lessonsspanish.component');
 var appRoutes = [
     {
         path: '',
@@ -72,8 +77,8 @@ var appRoutes = [
         component: finances_component_1.FinancesComponent
     },
     {
-        path: 'lessons',
-        component: lessons_component_1.LessonsComponent
+        path: 'bookoflessons',
+        component: bookoflessons_component_1.BookofLessonsComponent
     },
     {
         path: 'findchapter',
@@ -82,6 +87,22 @@ var appRoutes = [
     {
         path: 'englishbookoflessons',
         component: lessonsenglish_component_1.LessonsEnglishComponent
+    },
+    {
+        path: 'spanishbookoflessons',
+        component: lessonsspanish_component_1.LessonsSpanishComponent
+    },
+    {
+        path: 'ruleofthumb',
+        component: ruleofthumb_component_1.RuleofThumbComponent
+    },
+    {
+        path: 'spanishruleofthumb',
+        component: lessonsspanish_component_2.RuleofThumbLessonsSpanishComponent
+    },
+    {
+        path: 'englishruleofthumb',
+        component: lessonsenglish_component_2.RuleofThumbLessonsEnglishComponent
     }
 ];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);

@@ -15,6 +15,8 @@ var app_component_1 = require('./app.component');
 var navbar_component_1 = require('./components/navbar/navbar.component');
 var jumbotron_component_1 = require('./components/jumbotron/jumbotron.component');
 var footer_component_1 = require('./components/footer/footer.component');
+var sidemenubookoflessons_component_1 = require('./components/sidemenubookoflessons/sidemenubookoflessons.component');
+var sidemenuruleofthumb_component_1 = require('./components/sidemenuruleofthumb/sidemenuruleofthumb.component');
 //the main pages
 var home_component_1 = require('./components/pages/home.component');
 var about_component_1 = require('./components/pages/about.component');
@@ -30,10 +32,15 @@ var hiring_component_1 = require('./components/pages/subpages/hiring.component')
 var building_component_1 = require('./components/pages/subpages/building.component');
 var psychology_component_1 = require('./components/pages/subpages/psychology.component');
 var finances_component_1 = require('./components/pages/subpages/finances.component');
-var lessons_component_1 = require('./components/pages/subpages/lessons.component');
+var bookoflessons_component_1 = require('./components/pages/subpages/bookoflessons.component');
+var ruleofthumb_component_1 = require('./components/pages/subpages/ruleofthumb.component');
 var findchapter_component_1 = require('./components/pages/subpages/findchapter.component');
 //lessonspages
 var lessonsenglish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsenglish.component');
+var lessonsspanish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsspanish.component');
+//ruleofthumb
+var lessonsenglish_component_2 = require('./components/pages/subpages/ruleofthumb/lessonsenglish.component');
+var lessonsspanish_component_2 = require('./components/pages/subpages/ruleofthumb/lessonsspanish.component');
 //routing component
 var app_routing_1 = require('./app.routing');
 var AppModule = (function () {
@@ -44,6 +51,8 @@ var AppModule = (function () {
             imports: [platform_browser_1.BrowserModule, app_routing_1.routing],
             declarations: [app_component_1.AppComponent,
                 navbar_component_1.NavbarComponent,
+                sidemenubookoflessons_component_1.SideMenuBookofLessonsComponent,
+                sidemenuruleofthumb_component_1.SideMenuRuleofThumbComponent,
                 jumbotron_component_1.JumbotronComponent,
                 footer_component_1.FooterComponent,
                 home_component_1.HomeComponent,
@@ -59,9 +68,13 @@ var AppModule = (function () {
                 hiring_component_1.HiringComponent,
                 psychology_component_1.PsychologyComponent,
                 finances_component_1.FinancesComponent,
-                lessons_component_1.LessonsComponent,
+                bookoflessons_component_1.BookofLessonsComponent,
                 findchapter_component_1.FindChapterComponent,
-                lessonsenglish_component_1.LessonsEnglishComponent],
+                lessonsenglish_component_1.LessonsEnglishComponent,
+                lessonsspanish_component_1.LessonsSpanishComponent,
+                ruleofthumb_component_1.RuleofThumbComponent,
+                lessonsenglish_component_2.RuleofThumbLessonsEnglishComponent,
+                lessonsspanish_component_2.RuleofThumbLessonsSpanishComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

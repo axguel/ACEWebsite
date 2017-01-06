@@ -16,12 +16,17 @@ import {HiringComponent} from './components/pages/subpages/hiring.component';
 import {BuildingComponent} from './components/pages/subpages/building.component';
 import {PsychologyComponent} from './components/pages/subpages/psychology.component';
 import {FinancesComponent} from './components/pages/subpages/finances.component';
-import {LessonsComponent} from './components/pages/subpages/lessons.component';
+import {BookofLessonsComponent} from './components/pages/subpages/bookoflessons.component';
+import {RuleofThumbComponent} from './components/pages/subpages/ruleofthumb.component';
 import {FindChapterComponent} from './components/pages/subpages/findchapter.component';
 
 
 //lessonspages
 import {LessonsEnglishComponent} from './components/pages/subpages/bookoflessons/lessonsenglish.component';
+import {LessonsSpanishComponent} from './components/pages/subpages/bookoflessons/lessonsspanish.component';
+//ruleofthumb
+import {RuleofThumbLessonsEnglishComponent} from './components/pages/subpages/ruleofthumb/lessonsenglish.component';
+import {RuleofThumbLessonsSpanishComponent} from './components/pages/subpages/ruleofthumb/lessonsspanish.component';
 
 
 const appRoutes: Routes = [
@@ -78,8 +83,8 @@ const appRoutes: Routes = [
         component:FinancesComponent
     },
     {
-        path:'lessons',
-        component:LessonsComponent
+        path:'bookoflessons',
+        component:BookofLessonsComponent
     },
     {
         path:'findchapter',
@@ -88,6 +93,22 @@ const appRoutes: Routes = [
     {
         path:'englishbookoflessons',
         component:LessonsEnglishComponent
+    },
+    {
+        path:'spanishbookoflessons',
+        component:LessonsSpanishComponent
+    },
+    {
+        path:'ruleofthumb',
+        component:RuleofThumbComponent
+    },
+    {
+        path:'spanishruleofthumb',
+        component:RuleofThumbLessonsSpanishComponent
+    },
+    {
+        path:'englishruleofthumb',
+        component:RuleofThumbLessonsEnglishComponent
     }
 ];
 

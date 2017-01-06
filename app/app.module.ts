@@ -7,7 +7,8 @@ import {AppComponent} from './app.component';
 import {NavbarComponent} from './components/navbar/navbar.component';
 import {JumbotronComponent} from './components/jumbotron/jumbotron.component';
 import {FooterComponent} from './components/footer/footer.component';
-
+import {SideMenuBookofLessonsComponent} from './components/sidemenubookoflessons/sidemenubookoflessons.component';
+import {SideMenuRuleofThumbComponent} from './components/sidemenuruleofthumb/sidemenuruleofthumb.component';
 //the main pages
 import {HomeComponent} from './components/pages/home.component';
 import {AboutComponent} from './components/pages/about.component';
@@ -24,12 +25,17 @@ import {HiringComponent} from './components/pages/subpages/hiring.component';
 import {BuildingComponent} from './components/pages/subpages/building.component';
 import {PsychologyComponent} from './components/pages/subpages/psychology.component';
 import {FinancesComponent} from './components/pages/subpages/finances.component';
-import {LessonsComponent} from './components/pages/subpages/lessons.component';
+import {BookofLessonsComponent} from './components/pages/subpages/bookoflessons.component';
+import {RuleofThumbComponent} from './components/pages/subpages/ruleofthumb.component';
 import {FindChapterComponent} from './components/pages/subpages/findchapter.component';
 
 
 //lessonspages
 import {LessonsEnglishComponent} from './components/pages/subpages/bookoflessons/lessonsenglish.component';
+import {LessonsSpanishComponent} from './components/pages/subpages/bookoflessons/lessonsspanish.component';
+//ruleofthumb
+import {RuleofThumbLessonsEnglishComponent} from './components/pages/subpages/ruleofthumb/lessonsenglish.component';
+import {RuleofThumbLessonsSpanishComponent} from './components/pages/subpages/ruleofthumb/lessonsspanish.component';
 
 //routing component
 import {routing} from './app.routing';
@@ -37,7 +43,9 @@ import {routing} from './app.routing';
 @NgModule({
   imports:      [ BrowserModule, routing ],
   declarations: [ AppComponent, 
-                  NavbarComponent, 
+                  NavbarComponent,
+                  SideMenuBookofLessonsComponent,
+                  SideMenuRuleofThumbComponent, 
                   JumbotronComponent,
                   FooterComponent,
                   HomeComponent,
@@ -53,9 +61,13 @@ import {routing} from './app.routing';
                   HiringComponent,
                   PsychologyComponent,
                   FinancesComponent,
-                  LessonsComponent,
+                  BookofLessonsComponent,
                   FindChapterComponent,
-                  LessonsEnglishComponent ],
+                  LessonsEnglishComponent,
+                  LessonsSpanishComponent,
+                  RuleofThumbComponent,
+                  RuleofThumbLessonsEnglishComponent,
+                  RuleofThumbLessonsSpanishComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
