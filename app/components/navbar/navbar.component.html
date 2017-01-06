@@ -1,72 +1,111 @@
-<nav class="navbar home-navbar">
+<div class="navbar navbar-default navbar-static-top" role="navigation">
     <div class="container">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">{{branding}}</a>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand logo" routerLink="/" ><img src="{{branding}}" alt="The Academy of Creating Enterprise"></a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a routerLink="/">Home</a></li>
+                <li>
+                    <a routerLink="/about" class="dropdown-toggle" data-toggle="dropdown">About Us</a>
+                </li>
+                <li>
+                    <a routerLink="/donors" class="dropdown-toggle" data-toggle="dropdown">Donors</a>
+                </li>
+                <li>
+                    <a routerLink="/mychapter" class="dropdown-toggle" data-toggle="dropdown">My Chapter<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Register</a></li>
+                        <li><a routerLink="/findchapter">Find My Chapter</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Forum</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                <li>
+                    <a routerLink="/chapterleaders" class="dropdown-toggle" data-toggle="dropdown">Chapter Leaders<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../app/pdfs/ChapterPresidencyManual.pdf" target="_blank">Chapter Leader Training</a></li>
+                        <li><a routerLink="/monthlyagendas">Monthly Agendas</a></li>
+                        <li><a href="#">Reporting</a></li>                       
+                    </ul>
+                </li>
+                <li>
+                    <a routerLink="/businessresources" class="dropdown-toggle" data-toggle="dropdown">Business Education<b class="caret"></b></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li class="dropdown-submenu">
+                            <a routerLink="/lessons" class="dropdown-toggle" data-toggle="dropdown">Book of Lessons</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">English</a></li>
+                                <li><a href="#">Español</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">25 Rules of Thumb Lessons</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">English</a></li>
+                                <li><a href="#">Español</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a routerLink="/legalities" class="dropdown-toggle" data-toggle="dropdown">Legalities</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mexico</a></li>
+                                <li><a href="#">Peru</a></li>
+                                <li><a href="#">Phillipines</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a routerLink="/building" class="dropdown-toggle" data-toggle="dropdown">Building and Maintaining</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mexico</a></li>
+                                <li><a href="#">Peru</a></li>
+                                <li><a href="#">Phillipines</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a routerLink="/psychology" class="dropdown-toggle" data-toggle="dropdown">Psychology</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mexico</a></li>
+                                <li><a href="#">Peru</a></li>
+                                <li><a href="#">Phillipines</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a routerLink="/finances" class="dropdown-toggle" data-toggle="dropdown">Finances</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mexico</a></li>
+                                <li><a href="#">Peru</a></li>
+                                <li><a href="#">Phillipines</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a routerLink="/hiring" class="dropdown-toggle" data-toggle="dropdown">Hiring</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mexico</a></li>
+                                <li><a href="#">Peru</a></li>
+                                <li><a href="#">Phillipines</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a routerLink="/contact" class="dropdown-toggle" data-toggle="dropdown">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Donate</a>
+                </li>
+
+                
+            </ul>
+        </div><!--/.nav-collapse -->
     </div>
-    <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-        <li><a routerLink="/">Home</a></li>
-        <li class="dropdown">
-            <a routerLink="/about" class="dropbtn">About Us</a>
-            <div class="dropdown-content">
-                <a href="#">Our Mission</a>
-                <a href="#">Articles of Belief</a>
-                <a href="#">Our Team</a>
-                <a href="#">Our Curriculum</a>
-                <a href="#">Locations</a>
-                <a href="#">Prospective Students</a>
-                <a href="#">Annual Events</a>
-                <a href="#">FAQ</a>
-            </div>
-        </li>
-        <li class="dropdown">
-            <a routerLink="/donors" class="dropbtn">Donors</a>
-            <div class="dropdown-content">
-                <a href="#">Success Stories</a>
-                <a href="#">Our Team</a>
-                <a href="#">990 Form</a>
-                <a href="#">Donation Form</a>
-                <a href="#">Websites Info</a>
-            </div>
-        </li>
-        <li class="dropdown">
-            <a routerLink="/mychapter" class="dropbtn">My Chapter</a>
-            <div class="dropdown-content">
-                <a href="#">Register</a>
-                <a routerLink="/findchapter">Find My Chapter</a>
-                <a href="#">Directory</a>
-                <a href="#">Forum</a>
-            </div>
-        </li>
-        <li class="dropdown">
-            <a routerLink="/chapterleaders" class="dropbtn">Chapter Leaders</a>
-            <div class="dropdown-content">
-                <a href="../app/pdfs/ChapterPresidencyManual.pdf" target="_blank">Chapter Leader Training</a>
-                <a routerLink="/monthlyagendas">Monthly Agendas</a>
-                <a href="#">Reporting</a>
-            </div>
-        </li>
-        <li class="dropdown">
-            <a class="dropbtn" routerLink="/businessresources">Business Education</a>
-            <div class="dropdown-content">
-                <a routerLink="/lessons">Book of Lessons</a>
-                <a href="#">25 Rules of Thumb Lessons</a>
-                <a routerLink="/legalities">Legalities</a>
-                <a routerLink="/building">Building and Maintaining</a>
-                <a routerLink="/psychology">Psychology</a>
-                <a routerLink="/finances">Finances</a>
-                <a routerLink="/hiring">Hiring</a>
-            </div>
-        </li>
-        <li><a routerLink="/contact">Contact Us</a></li>
-        <li><a href="https://www.paypal.com/donate/?token=Hv4dgMx8m3QoNEFok6mHqD-Hr5fY6V-KXYSq_YdLEh2UiK_JKsBjzZSyple-uSEx1xk7AW" target="_blank">Donate</a></li>
-        </ul>
-    </div><!--/.nav-collapse -->
-    </div>
-</nav>
+</div>
+
