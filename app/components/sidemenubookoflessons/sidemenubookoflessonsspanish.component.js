@@ -9,18 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var BOLLesson8EnglishComponent = (function () {
-    function BOLLesson8EnglishComponent() {
+var SideMenuBookofLessonsSpanishComponent = (function () {
+    function SideMenuBookofLessonsSpanishComponent() {
     }
-    BOLLesson8EnglishComponent = __decorate([
+    SideMenuBookofLessonsSpanishComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'bookoflessonslesson8english',
-            templateUrl: 'lesson8.component.html'
+            selector: 'sidemenubookoflessonsspanish',
+            templateUrl: 'sidemenubookoflessonsspanish.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], BOLLesson8EnglishComponent);
-    return BOLLesson8EnglishComponent;
+    ], SideMenuBookofLessonsSpanishComponent);
+    return SideMenuBookofLessonsSpanishComponent;
 }());
-exports.BOLLesson8EnglishComponent = BOLLesson8EnglishComponent;
-//# sourceMappingURL=lesson8.component.js.map
+exports.SideMenuBookofLessonsSpanishComponent = SideMenuBookofLessonsSpanishComponent;
+//# sourceMappingURL=sidemenubookoflessonsspanish.component.js.map

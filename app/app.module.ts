@@ -8,6 +8,7 @@ import {NavbarComponent} from './components/navbar/navbar.component';
 import {JumbotronComponent} from './components/jumbotron/jumbotron.component';
 import {FooterComponent} from './components/footer/footer.component';
 import {SideMenuBookofLessonsComponent} from './components/sidemenubookoflessons/sidemenubookoflessons.component';
+import {SideMenuBookofLessonsSpanishComponent} from './components/sidemenubookoflessons/sidemenubookoflessonsspanish.component';
 import {SideMenuRuleofThumbComponent} from './components/sidemenuruleofthumb/sidemenuruleofthumb.component';
 //the main pages
 import {HomeComponent} from './components/pages/home.component';
@@ -33,6 +34,37 @@ import {FindChapterComponent} from './components/pages/subpages/findchapter.comp
 //lessonspages
 import {LessonsEnglishComponent} from './components/pages/subpages/bookoflessons/lessonsenglish.component';
 import {LessonsSpanishComponent} from './components/pages/subpages/bookoflessons/lessonsspanish.component';
+import {BookofLessonsIntroComponent} from './components/pages/subpages/bookoflessons/allenglishlessons/introduction.component';
+
+//englishbookoflessons
+import {BOLLesson1EnglishComponent} from './components/pages/subpages/bookoflessons/allenglishlessons/lesson1.component';
+import {BOLLesson2EnglishComponent} from './components/pages/subpages/bookoflessons/allenglishlessons/lesson2.component';
+import {BOLLesson3EnglishComponent} from './components/pages/subpages/bookoflessons/allenglishlessons/lesson3.component';
+import {BOLLesson4EnglishComponent} from './components/pages/subpages/bookoflessons/allenglishlessons/lesson4.component';
+import {BOLLesson5EnglishComponent} from './components/pages/subpages/bookoflessons/allenglishlessons/lesson5.component';
+import {BOLLesson6EnglishComponent} from './components/pages/subpages/bookoflessons/allenglishlessons/lesson6.component';
+import {BOLLesson7EnglishComponent} from './components/pages/subpages/bookoflessons/allenglishlessons/lesson7.component';
+import {BOLLesson8EnglishComponent} from './components/pages/subpages/bookoflessons/allenglishlessons/lesson8.component';
+import {BOLLesson9EnglishComponent} from './components/pages/subpages/bookoflessons/allenglishlessons/lesson9.component';
+import {BOLLesson10EnglishComponent} from './components/pages/subpages/bookoflessons/allenglishlessons/lesson10.component';
+import {BOLLesson11EnglishComponent} from './components/pages/subpages/bookoflessons/allenglishlessons/lesson11.component';
+import {BOLLesson12EnglishComponent} from './components/pages/subpages/bookoflessons/allenglishlessons/lesson12.component';
+
+//spanishbookoflessons
+import {BOLLesson1SpanishComponent} from './components/pages/subpages/bookoflessons/allspanishlessons/lesson1.component';
+import {BOLLesson2SpanishComponent} from './components/pages/subpages/bookoflessons/allspanishlessons/lesson2.component';
+import {BOLLesson3SpanishComponent} from './components/pages/subpages/bookoflessons/allspanishlessons/lesson3.component';
+import {BOLLesson4SpanishComponent} from './components/pages/subpages/bookoflessons/allspanishlessons/lesson4.component';
+import {BOLLesson5SpanishComponent} from './components/pages/subpages/bookoflessons/allspanishlessons/lesson5.component';
+import {BOLLesson6SpanishComponent} from './components/pages/subpages/bookoflessons/allspanishlessons/lesson6.component';
+import {BOLLesson7SpanishComponent} from './components/pages/subpages/bookoflessons/allspanishlessons/lesson7.component';
+import {BOLLesson8SpanishComponent} from './components/pages/subpages/bookoflessons/allspanishlessons/lesson8.component';
+import {BOLLesson9SpanishComponent} from './components/pages/subpages/bookoflessons/allspanishlessons/lesson9.component';
+import {BOLLesson10SpanishComponent} from './components/pages/subpages/bookoflessons/allspanishlessons/lesson10.component';
+import {BOLLesson11SpanishComponent} from './components/pages/subpages/bookoflessons/allspanishlessons/lesson11.component';
+import {BOLLesson12SpanishComponent} from './components/pages/subpages/bookoflessons/allspanishlessons/lesson12.component';
+
+
 //ruleofthumb
 import {RuleofThumbLessonsEnglishComponent} from './components/pages/subpages/ruleofthumb/lessonsenglish.component';
 import {RuleofThumbLessonsSpanishComponent} from './components/pages/subpages/ruleofthumb/lessonsspanish.component';
@@ -45,6 +77,7 @@ import {routing} from './app.routing';
   declarations: [ AppComponent, 
                   NavbarComponent,
                   SideMenuBookofLessonsComponent,
+                  SideMenuBookofLessonsSpanishComponent,
                   SideMenuRuleofThumbComponent, 
                   JumbotronComponent,
                   FooterComponent,
@@ -67,7 +100,32 @@ import {routing} from './app.routing';
                   LessonsSpanishComponent,
                   RuleofThumbComponent,
                   RuleofThumbLessonsEnglishComponent,
-                  RuleofThumbLessonsSpanishComponent ],
+                  RuleofThumbLessonsSpanishComponent,
+                  BookofLessonsIntroComponent,
+                  BOLLesson1EnglishComponent,
+                  BOLLesson2EnglishComponent,
+                  BOLLesson3EnglishComponent,
+                  BOLLesson4EnglishComponent,
+                  BOLLesson5EnglishComponent,
+                  BOLLesson6EnglishComponent,
+                  BOLLesson7EnglishComponent,
+                  BOLLesson8EnglishComponent,
+                  BOLLesson9EnglishComponent,
+                  BOLLesson10EnglishComponent,
+                  BOLLesson11EnglishComponent,
+                  BOLLesson12EnglishComponent,
+                  BOLLesson1SpanishComponent,
+                  BOLLesson2SpanishComponent,
+                  BOLLesson3SpanishComponent,
+                  BOLLesson4SpanishComponent,
+                  BOLLesson5SpanishComponent,
+                  BOLLesson6SpanishComponent,
+                  BOLLesson7SpanishComponent,
+                  BOLLesson8SpanishComponent,
+                  BOLLesson9SpanishComponent,
+                  BOLLesson10SpanishComponent,
+                  BOLLesson11SpanishComponent,
+                  BOLLesson12SpanishComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

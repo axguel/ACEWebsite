@@ -16,6 +16,7 @@ var navbar_component_1 = require('./components/navbar/navbar.component');
 var jumbotron_component_1 = require('./components/jumbotron/jumbotron.component');
 var footer_component_1 = require('./components/footer/footer.component');
 var sidemenubookoflessons_component_1 = require('./components/sidemenubookoflessons/sidemenubookoflessons.component');
+var sidemenubookoflessonsspanish_component_1 = require('./components/sidemenubookoflessons/sidemenubookoflessonsspanish.component');
 var sidemenuruleofthumb_component_1 = require('./components/sidemenuruleofthumb/sidemenuruleofthumb.component');
 //the main pages
 var home_component_1 = require('./components/pages/home.component');
@@ -38,6 +39,33 @@ var findchapter_component_1 = require('./components/pages/subpages/findchapter.c
 //lessonspages
 var lessonsenglish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsenglish.component');
 var lessonsspanish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsspanish.component');
+var introduction_component_1 = require('./components/pages/subpages/bookoflessons/allenglishlessons/introduction.component');
+//englishbookoflessons
+var lesson1_component_1 = require('./components/pages/subpages/bookoflessons/allenglishlessons/lesson1.component');
+var lesson2_component_1 = require('./components/pages/subpages/bookoflessons/allenglishlessons/lesson2.component');
+var lesson3_component_1 = require('./components/pages/subpages/bookoflessons/allenglishlessons/lesson3.component');
+var lesson4_component_1 = require('./components/pages/subpages/bookoflessons/allenglishlessons/lesson4.component');
+var lesson5_component_1 = require('./components/pages/subpages/bookoflessons/allenglishlessons/lesson5.component');
+var lesson6_component_1 = require('./components/pages/subpages/bookoflessons/allenglishlessons/lesson6.component');
+var lesson7_component_1 = require('./components/pages/subpages/bookoflessons/allenglishlessons/lesson7.component');
+var lesson8_component_1 = require('./components/pages/subpages/bookoflessons/allenglishlessons/lesson8.component');
+var lesson9_component_1 = require('./components/pages/subpages/bookoflessons/allenglishlessons/lesson9.component');
+var lesson10_component_1 = require('./components/pages/subpages/bookoflessons/allenglishlessons/lesson10.component');
+var lesson11_component_1 = require('./components/pages/subpages/bookoflessons/allenglishlessons/lesson11.component');
+var lesson12_component_1 = require('./components/pages/subpages/bookoflessons/allenglishlessons/lesson12.component');
+//spanishbookoflessons
+var lesson1_component_2 = require('./components/pages/subpages/bookoflessons/allspanishlessons/lesson1.component');
+var lesson2_component_2 = require('./components/pages/subpages/bookoflessons/allspanishlessons/lesson2.component');
+var lesson3_component_2 = require('./components/pages/subpages/bookoflessons/allspanishlessons/lesson3.component');
+var lesson4_component_2 = require('./components/pages/subpages/bookoflessons/allspanishlessons/lesson4.component');
+var lesson5_component_2 = require('./components/pages/subpages/bookoflessons/allspanishlessons/lesson5.component');
+var lesson6_component_2 = require('./components/pages/subpages/bookoflessons/allspanishlessons/lesson6.component');
+var lesson7_component_2 = require('./components/pages/subpages/bookoflessons/allspanishlessons/lesson7.component');
+var lesson8_component_2 = require('./components/pages/subpages/bookoflessons/allspanishlessons/lesson8.component');
+var lesson9_component_2 = require('./components/pages/subpages/bookoflessons/allspanishlessons/lesson9.component');
+var lesson10_component_2 = require('./components/pages/subpages/bookoflessons/allspanishlessons/lesson10.component');
+var lesson11_component_2 = require('./components/pages/subpages/bookoflessons/allspanishlessons/lesson11.component');
+var lesson12_component_2 = require('./components/pages/subpages/bookoflessons/allspanishlessons/lesson12.component');
 //ruleofthumb
 var lessonsenglish_component_2 = require('./components/pages/subpages/ruleofthumb/lessonsenglish.component');
 var lessonsspanish_component_2 = require('./components/pages/subpages/ruleofthumb/lessonsspanish.component');
@@ -52,6 +80,7 @@ var AppModule = (function () {
             declarations: [app_component_1.AppComponent,
                 navbar_component_1.NavbarComponent,
                 sidemenubookoflessons_component_1.SideMenuBookofLessonsComponent,
+                sidemenubookoflessonsspanish_component_1.SideMenuBookofLessonsSpanishComponent,
                 sidemenuruleofthumb_component_1.SideMenuRuleofThumbComponent,
                 jumbotron_component_1.JumbotronComponent,
                 footer_component_1.FooterComponent,
@@ -74,7 +103,32 @@ var AppModule = (function () {
                 lessonsspanish_component_1.LessonsSpanishComponent,
                 ruleofthumb_component_1.RuleofThumbComponent,
                 lessonsenglish_component_2.RuleofThumbLessonsEnglishComponent,
-                lessonsspanish_component_2.RuleofThumbLessonsSpanishComponent],
+                lessonsspanish_component_2.RuleofThumbLessonsSpanishComponent,
+                introduction_component_1.BookofLessonsIntroComponent,
+                lesson1_component_1.BOLLesson1EnglishComponent,
+                lesson2_component_1.BOLLesson2EnglishComponent,
+                lesson3_component_1.BOLLesson3EnglishComponent,
+                lesson4_component_1.BOLLesson4EnglishComponent,
+                lesson5_component_1.BOLLesson5EnglishComponent,
+                lesson6_component_1.BOLLesson6EnglishComponent,
+                lesson7_component_1.BOLLesson7EnglishComponent,
+                lesson8_component_1.BOLLesson8EnglishComponent,
+                lesson9_component_1.BOLLesson9EnglishComponent,
+                lesson10_component_1.BOLLesson10EnglishComponent,
+                lesson11_component_1.BOLLesson11EnglishComponent,
+                lesson12_component_1.BOLLesson12EnglishComponent,
+                lesson1_component_2.BOLLesson1SpanishComponent,
+                lesson2_component_2.BOLLesson2SpanishComponent,
+                lesson3_component_2.BOLLesson3SpanishComponent,
+                lesson4_component_2.BOLLesson4SpanishComponent,
+                lesson5_component_2.BOLLesson5SpanishComponent,
+                lesson6_component_2.BOLLesson6SpanishComponent,
+                lesson7_component_2.BOLLesson7SpanishComponent,
+                lesson8_component_2.BOLLesson8SpanishComponent,
+                lesson9_component_2.BOLLesson9SpanishComponent,
+                lesson10_component_2.BOLLesson10SpanishComponent,
+                lesson11_component_2.BOLLesson11SpanishComponent,
+                lesson12_component_2.BOLLesson12SpanishComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])
