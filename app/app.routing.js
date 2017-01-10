@@ -49,6 +49,58 @@ var lesson12_component_2 = require('./components/pages/subpages/bookoflessons/al
 //ruleofthumb
 var lessonsenglish_component_2 = require('./components/pages/subpages/ruleofthumb/lessonsenglish.component');
 var lessonsspanish_component_2 = require('./components/pages/subpages/ruleofthumb/lessonsspanish.component');
+//englishruleofthumblessons 
+var lesson1_component_3 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson1.component');
+var lesson2_component_3 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson2.component');
+var lesson3_component_3 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson3.component');
+var lesson4_component_3 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson4.component');
+var lesson5_component_3 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson5.component');
+var lesson6_component_3 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson6.component');
+var lesson7_component_3 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson7.component');
+var lesson8_component_3 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson8.component');
+var lesson9_component_3 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson9.component');
+var lesson10_component_3 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson10.component');
+var lesson11_component_3 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson11.component');
+var lesson12_component_3 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson12.component');
+var lesson13_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson13.component');
+var lesson14_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson14.component');
+var lesson15_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson15.component');
+var lesson16_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson16.component');
+var lesson17_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson17.component');
+var lesson18_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson18.component');
+var lesson19_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson19.component');
+var lesson20_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson20.component');
+var lesson21_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson21.component');
+var lesson22_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson22.component');
+var lesson23_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson23.component');
+var lesson24_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson24.component');
+var lesson25_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson25.component');
+//spanishruleofthumblessons
+var lesson1_component_4 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson1.component');
+var lesson2_component_4 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson2.component');
+var lesson3_component_4 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson3.component');
+var lesson4_component_4 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson4.component');
+var lesson5_component_4 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson5.component');
+var lesson6_component_4 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson6.component');
+var lesson7_component_4 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson7.component');
+var lesson8_component_4 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson8.component');
+var lesson9_component_4 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson9.component');
+var lesson10_component_4 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson10.component');
+var lesson11_component_4 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson11.component');
+var lesson12_component_4 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson12.component');
+var lesson13_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson13.component');
+var lesson14_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson14.component');
+var lesson15_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson15.component');
+var lesson16_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson16.component');
+var lesson17_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson17.component');
+var lesson18_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson18.component');
+var lesson19_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson19.component');
+var lesson20_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson20.component');
+var lesson21_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson21.component');
+var lesson22_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson22.component');
+var lesson23_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson23.component');
+var lesson24_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson24.component');
+var lesson25_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson25.component');
 var appRoutes = [
     {
         path: '',
@@ -229,6 +281,206 @@ var appRoutes = [
     {
         path: 'bookoflessonslesson12Spanish',
         component: lesson12_component_2.BOLLesson12SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson1English',
+        component: lesson1_component_3.ROTLesson1EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson2English',
+        component: lesson2_component_3.ROTLesson2EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson3English',
+        component: lesson3_component_3.ROTLesson3EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson4English',
+        component: lesson4_component_3.ROTLesson4EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson5English',
+        component: lesson5_component_3.ROTLesson5EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson6English',
+        component: lesson6_component_3.ROTLesson6EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson7English',
+        component: lesson7_component_3.ROTLesson7EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson8English',
+        component: lesson8_component_3.ROTLesson8EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson9English',
+        component: lesson9_component_3.ROTLesson9EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson10English',
+        component: lesson10_component_3.ROTLesson10EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson11English',
+        component: lesson11_component_3.ROTLesson11EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson12English',
+        component: lesson12_component_3.ROTLesson12EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson13English',
+        component: lesson13_component_1.ROTLesson13EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson14English',
+        component: lesson14_component_1.ROTLesson14EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson15English',
+        component: lesson15_component_1.ROTLesson15EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson16English',
+        component: lesson16_component_1.ROTLesson16EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson17English',
+        component: lesson17_component_1.ROTLesson17EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson18English',
+        component: lesson18_component_1.ROTLesson18EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson19English',
+        component: lesson19_component_1.ROTLesson19EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson20English',
+        component: lesson20_component_1.ROTLesson20EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson21English',
+        component: lesson21_component_1.ROTLesson21EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson22English',
+        component: lesson22_component_1.ROTLesson22EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson23English',
+        component: lesson23_component_1.ROTLesson23EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson24English',
+        component: lesson24_component_1.ROTLesson24EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson25English',
+        component: lesson25_component_1.ROTLesson25EnglishComponent
+    },
+    {
+        path: 'ruleofthumblesson1Spanish',
+        component: lesson1_component_4.ROTLesson1SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson2Spanish',
+        component: lesson2_component_4.ROTLesson2SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson3Spanish',
+        component: lesson3_component_4.ROTLesson3SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson4Spanish',
+        component: lesson4_component_4.ROTLesson4SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson5Spanish',
+        component: lesson5_component_4.ROTLesson5SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson6Spanish',
+        component: lesson6_component_4.ROTLesson6SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson7Spanish',
+        component: lesson7_component_4.ROTLesson7SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson8Spanish',
+        component: lesson8_component_4.ROTLesson8SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson9Spanish',
+        component: lesson9_component_4.ROTLesson9SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson10Spanish',
+        component: lesson10_component_4.ROTLesson10SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson11Spanish',
+        component: lesson11_component_4.ROTLesson11SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson12Spanish',
+        component: lesson12_component_4.ROTLesson12SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson13Spanish',
+        component: lesson13_component_2.ROTLesson13SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson14Spanish',
+        component: lesson14_component_2.ROTLesson14SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson15Spanish',
+        component: lesson15_component_2.ROTLesson15SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson16Spanish',
+        component: lesson16_component_2.ROTLesson16SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson17Spanish',
+        component: lesson17_component_2.ROTLesson17SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson18Spanish',
+        component: lesson18_component_2.ROTLesson18SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson19Spanish',
+        component: lesson19_component_2.ROTLesson19SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson20Spanish',
+        component: lesson20_component_2.ROTLesson20SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson21Spanish',
+        component: lesson21_component_2.ROTLesson21SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson22Spanish',
+        component: lesson22_component_2.ROTLesson22SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson23Spanish',
+        component: lesson23_component_2.ROTLesson23SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson24Spanish',
+        component: lesson24_component_2.ROTLesson24SpanishComponent
+    },
+    {
+        path: 'ruleofthumblesson25Spanish',
+        component: lesson25_component_2.ROTLesson25SpanishComponent
     }
 ];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);

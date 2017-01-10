@@ -59,6 +59,60 @@ import {BOLLesson12SpanishComponent} from './components/pages/subpages/bookofles
 import {RuleofThumbLessonsEnglishComponent} from './components/pages/subpages/ruleofthumb/lessonsenglish.component';
 import {RuleofThumbLessonsSpanishComponent} from './components/pages/subpages/ruleofthumb/lessonsspanish.component';
 
+//englishruleofthumblessons 
+import {ROTLesson1EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson1.component';
+import {ROTLesson2EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson2.component';
+import {ROTLesson3EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson3.component';
+import {ROTLesson4EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson4.component';
+import {ROTLesson5EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson5.component';
+import {ROTLesson6EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson6.component';
+import {ROTLesson7EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson7.component';
+import {ROTLesson8EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson8.component';
+import {ROTLesson9EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson9.component';
+import {ROTLesson10EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson10.component';
+import {ROTLesson11EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson11.component';
+import {ROTLesson12EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson12.component';
+import {ROTLesson13EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson13.component';
+import {ROTLesson14EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson14.component';
+import {ROTLesson15EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson15.component';
+import {ROTLesson16EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson16.component';
+import {ROTLesson17EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson17.component';
+import {ROTLesson18EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson18.component';
+import {ROTLesson19EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson19.component';
+import {ROTLesson20EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson20.component';
+import {ROTLesson21EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson21.component';
+import {ROTLesson22EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson22.component';
+import {ROTLesson23EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson23.component';
+import {ROTLesson24EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson24.component';
+import {ROTLesson25EnglishComponent} from './components/pages/subpages/ruleofthumb/allenglishlessons/lesson25.component';
+
+//spanishruleofthumblessons
+import {ROTLesson1SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson1.component';
+import {ROTLesson2SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson2.component';
+import {ROTLesson3SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson3.component';
+import {ROTLesson4SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson4.component';
+import {ROTLesson5SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson5.component';
+import {ROTLesson6SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson6.component';
+import {ROTLesson7SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson7.component';
+import {ROTLesson8SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson8.component';
+import {ROTLesson9SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson9.component';
+import {ROTLesson10SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson10.component';
+import {ROTLesson11SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson11.component';
+import {ROTLesson12SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson12.component';
+import {ROTLesson13SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson13.component';
+import {ROTLesson14SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson14.component';
+import {ROTLesson15SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson15.component';
+import {ROTLesson16SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson16.component';
+import {ROTLesson17SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson17.component';
+import {ROTLesson18SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson18.component';
+import {ROTLesson19SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson19.component';
+import {ROTLesson20SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson20.component';
+import {ROTLesson21SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson21.component';
+import {ROTLesson22SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson22.component';
+import {ROTLesson23SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson23.component';
+import {ROTLesson24SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson24.component';
+import {ROTLesson25SpanishComponent} from './components/pages/subpages/ruleofthumb/allspanishlessons/lesson25.component';
+
 
 const appRoutes: Routes = [
     {
@@ -240,6 +294,206 @@ const appRoutes: Routes = [
     {
         path:'bookoflessonslesson12Spanish',
         component:BOLLesson12SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson1English',
+        component:ROTLesson1EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson2English',
+        component:ROTLesson2EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson3English',
+        component:ROTLesson3EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson4English',
+        component:ROTLesson4EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson5English',
+        component:ROTLesson5EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson6English',
+        component:ROTLesson6EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson7English',
+        component:ROTLesson7EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson8English',
+        component:ROTLesson8EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson9English',
+        component:ROTLesson9EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson10English',
+        component:ROTLesson10EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson11English',
+        component:ROTLesson11EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson12English',
+        component:ROTLesson12EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson13English',
+        component:ROTLesson13EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson14English',
+        component:ROTLesson14EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson15English',
+        component:ROTLesson15EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson16English',
+        component:ROTLesson16EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson17English',
+        component:ROTLesson17EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson18English',
+        component:ROTLesson18EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson19English',
+        component:ROTLesson19EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson20English',
+        component:ROTLesson20EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson21English',
+        component:ROTLesson21EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson22English',
+        component:ROTLesson22EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson23English',
+        component:ROTLesson23EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson24English',
+        component:ROTLesson24EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson25English',
+        component:ROTLesson25EnglishComponent
+    },
+    {
+        path:'ruleofthumblesson1Spanish',
+        component:ROTLesson1SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson2Spanish',
+        component:ROTLesson2SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson3Spanish',
+        component:ROTLesson3SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson4Spanish',
+        component:ROTLesson4SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson5Spanish',
+        component:ROTLesson5SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson6Spanish',
+        component:ROTLesson6SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson7Spanish',
+        component:ROTLesson7SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson8Spanish',
+        component:ROTLesson8SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson9Spanish',
+        component:ROTLesson9SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson10Spanish',
+        component:ROTLesson10SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson11Spanish',
+        component:ROTLesson11SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson12Spanish',
+        component:ROTLesson12SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson13Spanish',
+        component:ROTLesson13SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson14Spanish',
+        component:ROTLesson14SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson15Spanish',
+        component:ROTLesson15SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson16Spanish',
+        component:ROTLesson16SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson17Spanish',
+        component:ROTLesson17SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson18Spanish',
+        component:ROTLesson18SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson19Spanish',
+        component:ROTLesson19SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson20Spanish',
+        component:ROTLesson20SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson21Spanish',
+        component:ROTLesson21SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson22Spanish',
+        component:ROTLesson22SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson23Spanish',
+        component:ROTLesson23SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson24Spanish',
+        component:ROTLesson24SpanishComponent
+    },
+    {
+        path:'ruleofthumblesson25Spanish',
+        component:ROTLesson25SpanishComponent
     }
 ];
 

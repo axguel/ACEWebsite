@@ -9,18 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var ROTLesson15EnglishComponent = (function () {
-    function ROTLesson15EnglishComponent() {
+var SideMenuRuleofThumbSpanishComponent = (function () {
+    function SideMenuRuleofThumbSpanishComponent() {
     }
-    ROTLesson15EnglishComponent = __decorate([
+    SideMenuRuleofThumbSpanishComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'ruleofthumblesson15English',
-            templateUrl: 'lesson15.component.html'
+            selector: 'sidemenuruleofthumbspanish',
+            templateUrl: 'sidemenuruleofthumbspanish.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], ROTLesson15EnglishComponent);
-    return ROTLesson15EnglishComponent;
+    ], SideMenuRuleofThumbSpanishComponent);
+    return SideMenuRuleofThumbSpanishComponent;
 }());
-exports.ROTLesson15EnglishComponent = ROTLesson15EnglishComponent;
-//# sourceMappingURL=lesson15.component.js.map
+exports.SideMenuRuleofThumbSpanishComponent = SideMenuRuleofThumbSpanishComponent;
+//# sourceMappingURL=sidemenuruleofthumbspanish.component.js.map
