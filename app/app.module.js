@@ -27,9 +27,9 @@ var mychapter_component_1 = require('./components/pages/mychapter.component');
 var chapterleaders_component_1 = require('./components/pages/chapterleaders.component');
 var businessresources_component_1 = require('./components/pages/businessresources.component');
 var contact_component_1 = require('./components/pages/contact.component');
+var comingsoon_component_1 = require('./components/pages/comingsoon.component');
 //subpages
 var agenda_component_1 = require('./components/pages/subpages/agenda.component');
-var legalities_component_1 = require('./components/pages/subpages/legalities.component');
 var hiring_component_1 = require('./components/pages/subpages/hiring.component');
 var building_component_1 = require('./components/pages/subpages/building.component');
 var psychology_component_1 = require('./components/pages/subpages/psychology.component');
@@ -37,6 +37,11 @@ var finances_component_1 = require('./components/pages/subpages/finances.compone
 var bookoflessons_component_1 = require('./components/pages/subpages/bookoflessons.component');
 var ruleofthumb_component_1 = require('./components/pages/subpages/ruleofthumb.component');
 var findchapter_component_1 = require('./components/pages/subpages/findchapter.component');
+//legalities
+var legalities_component_1 = require('./components/pages/subpages/legalities/legalities.component');
+var mexicolegalities_component_1 = require('./components/pages/subpages/legalities/mexicolegalities.component');
+var philegalities_component_1 = require('./components/pages/subpages/legalities/philegalities.component');
+var perulegalities_component_1 = require('./components/pages/subpages/legalities/perulegalities.component');
 //lessonspages
 var lessonsenglish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsenglish.component');
 var lessonsspanish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsspanish.component');
@@ -139,6 +144,7 @@ var AppModule = (function () {
                 jumbotron_component_1.JumbotronComponent,
                 footer_component_1.FooterComponent,
                 home_component_1.HomeComponent,
+                comingsoon_component_1.ComingSoonComponent,
                 about_component_1.AboutComponent,
                 donors_component_1.DonorsComponent,
                 mychapter_component_1.MyChapterComponent,
@@ -232,7 +238,10 @@ var AppModule = (function () {
                 lesson22_component_2.ROTLesson22SpanishComponent,
                 lesson23_component_2.ROTLesson23SpanishComponent,
                 lesson24_component_2.ROTLesson24SpanishComponent,
-                lesson25_component_2.ROTLesson25SpanishComponent],
+                lesson25_component_2.ROTLesson25SpanishComponent,
+                perulegalities_component_1.PeruLegalitiesComponent,
+                philegalities_component_1.PhiLegalitiesComponent,
+                mexicolegalities_component_1.MexicoLegalitiesComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

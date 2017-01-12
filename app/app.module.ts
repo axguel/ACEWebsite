@@ -19,10 +19,10 @@ import {MyChapterComponent} from './components/pages/mychapter.component';
 import {ChapterLeadersComponent} from './components/pages/chapterleaders.component';
 import {BusinessResourcesComponent} from './components/pages/businessresources.component';
 import {ContactComponent} from './components/pages/contact.component';
+import {ComingSoonComponent} from './components/pages/comingsoon.component';
 
 //subpages
 import {AgendaComponent} from './components/pages/subpages/agenda.component';
-import {LegalitiesComponent} from './components/pages/subpages/legalities.component';
 import {HiringComponent} from './components/pages/subpages/hiring.component';
 import {BuildingComponent} from './components/pages/subpages/building.component';
 import {PsychologyComponent} from './components/pages/subpages/psychology.component';
@@ -30,6 +30,12 @@ import {FinancesComponent} from './components/pages/subpages/finances.component'
 import {BookofLessonsComponent} from './components/pages/subpages/bookoflessons.component';
 import {RuleofThumbComponent} from './components/pages/subpages/ruleofthumb.component';
 import {FindChapterComponent} from './components/pages/subpages/findchapter.component';
+
+//legalities
+import {LegalitiesComponent} from './components/pages/subpages/legalities/legalities.component';
+import {MexicoLegalitiesComponent} from './components/pages/subpages/legalities/mexicolegalities.component';
+import {PhiLegalitiesComponent} from './components/pages/subpages/legalities/philegalities.component';
+import {PeruLegalitiesComponent} from './components/pages/subpages/legalities/perulegalities.component';
 
 
 //lessonspages
@@ -138,6 +144,7 @@ import {routing} from './app.routing';
                   JumbotronComponent,
                   FooterComponent,
                   HomeComponent,
+                  ComingSoonComponent,
                   AboutComponent,
                   DonorsComponent,
                   MyChapterComponent,
@@ -231,7 +238,10 @@ import {routing} from './app.routing';
                   ROTLesson22SpanishComponent,
                   ROTLesson23SpanishComponent,
                   ROTLesson24SpanishComponent,
-                  ROTLesson25SpanishComponent ],
+                  ROTLesson25SpanishComponent,
+                  PeruLegalitiesComponent,
+                  PhiLegalitiesComponent,
+                  MexicoLegalitiesComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

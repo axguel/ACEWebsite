@@ -6,10 +6,10 @@ var donors_component_1 = require('./components/pages/donors.component');
 var mychapter_component_1 = require('./components/pages/mychapter.component');
 var chapterleaders_component_1 = require('./components/pages/chapterleaders.component');
 var businessresources_component_1 = require('./components/pages/businessresources.component');
+var comingsoon_component_1 = require('./components/pages/comingsoon.component');
 var contact_component_1 = require('./components/pages/contact.component');
 //subpages
 var agenda_component_1 = require('./components/pages/subpages/agenda.component');
-var legalities_component_1 = require('./components/pages/subpages/legalities.component');
 var hiring_component_1 = require('./components/pages/subpages/hiring.component');
 var building_component_1 = require('./components/pages/subpages/building.component');
 var psychology_component_1 = require('./components/pages/subpages/psychology.component');
@@ -17,6 +17,11 @@ var finances_component_1 = require('./components/pages/subpages/finances.compone
 var bookoflessons_component_1 = require('./components/pages/subpages/bookoflessons.component');
 var ruleofthumb_component_1 = require('./components/pages/subpages/ruleofthumb.component');
 var findchapter_component_1 = require('./components/pages/subpages/findchapter.component');
+//legalities
+var legalities_component_1 = require('./components/pages/subpages/legalities/legalities.component');
+var mexicolegalities_component_1 = require('./components/pages/subpages/legalities/mexicolegalities.component');
+var philegalities_component_1 = require('./components/pages/subpages/legalities/philegalities.component');
+var perulegalities_component_1 = require('./components/pages/subpages/legalities/perulegalities.component');
 //lessonspages
 var lessonsenglish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsenglish.component');
 var lessonsspanish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsspanish.component');
@@ -481,6 +486,22 @@ var appRoutes = [
     {
         path: 'ruleofthumblesson25Spanish',
         component: lesson25_component_2.ROTLesson25SpanishComponent
+    },
+    {
+        path: 'featurecomingsoon',
+        component: comingsoon_component_1.ComingSoonComponent
+    },
+    {
+        path: 'mexicolegalities',
+        component: mexicolegalities_component_1.MexicoLegalitiesComponent
+    },
+    {
+        path: 'perulegalities',
+        component: perulegalities_component_1.PeruLegalitiesComponent
+    },
+    {
+        path: 'philegalities',
+        component: philegalities_component_1.PhiLegalitiesComponent
     }
 ];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);
