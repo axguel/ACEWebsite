@@ -282,3 +282,11 @@ font-size:20px;
     color:#242424 !important;
     font-size:15px;
 }
+
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
