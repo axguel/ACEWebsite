@@ -9,6 +9,10 @@ import {JumbotronComponent} from './components/jumbotron/jumbotron.component';
 import {FooterComponent} from './components/footer/footer.component';
 import {SideMenuBookofLessonsComponent} from './components/sidemenubookoflessons/sidemenubookoflessons.component';
 import {SideMenuBookofLessonsSpanishComponent} from './components/sidemenubookoflessons/sidemenubookoflessonsspanish.component';
+import {SideMenuDutytoLeadComponent} from './components/sidemenudutytolead/sidemenudutytolead.component';
+import {SideMenuDutytoLeadSpanishComponent} from './components/sidemenudutytolead/sidemenudutytoleadspanish.component';
+import {SideMenuDutytoProsperComponent} from './components/sidemenudutytoprosper/sidemenudutytoprosper.component';
+import {SideMenuDutytoProsperSpanishComponent} from './components/sidemenudutytoprosper/sidemenudutytoprosperspanish.component';
 import {SideMenuRuleofThumbComponent} from './components/sidemenuruleofthumb/sidemenuruleofthumb.component';
 import {SideMenuRuleofThumbSpanishComponent} from './components/sidemenuruleofthumb/sidemenuruleofthumbspanish.component';
 //the main pages
@@ -28,6 +32,8 @@ import {BuildingComponent} from './components/pages/subpages/building.component'
 import {PsychologyComponent} from './components/pages/subpages/psychology.component';
 import {FinancesComponent} from './components/pages/subpages/finances.component';
 import {BookofLessonsComponent} from './components/pages/subpages/bookoflessons.component';
+import {DutytoLeadComponent} from './components/pages/subpages/dutytolead.component';
+import {DutytoProsperComponent} from './components/pages/subpages/dutytoprosper.component';
 import {RuleofThumbComponent} from './components/pages/subpages/ruleofthumb.component';
 import {FindChapterComponent} from './components/pages/subpages/findchapter.component';
 
@@ -71,6 +77,65 @@ import {BOLLesson10SpanishComponent} from './components/pages/subpages/bookofles
 import {BOLLesson11SpanishComponent} from './components/pages/subpages/bookoflessons/allspanishlessons/lesson11.component';
 import {BOLLesson12SpanishComponent} from './components/pages/subpages/bookoflessons/allspanishlessons/lesson12.component';
 
+//englishdutytolead
+
+import {DTLLesson1EnglishComponent} from './components/pages/subpages/dutytolead/allenglishlessons/lesson1.component';
+import {DTLLesson2EnglishComponent} from './components/pages/subpages/dutytolead/allenglishlessons/lesson2.component';
+import {DTLLesson3EnglishComponent} from './components/pages/subpages/dutytolead/allenglishlessons/lesson3.component';
+import {DTLLesson4EnglishComponent} from './components/pages/subpages/dutytolead/allenglishlessons/lesson4.component';
+import {DTLLesson5EnglishComponent} from './components/pages/subpages/dutytolead/allenglishlessons/lesson5.component';
+import {DTLLesson6EnglishComponent} from './components/pages/subpages/dutytolead/allenglishlessons/lesson6.component';
+import {DTLLesson7EnglishComponent} from './components/pages/subpages/dutytolead/allenglishlessons/lesson7.component';
+import {DTLLesson8EnglishComponent} from './components/pages/subpages/dutytolead/allenglishlessons/lesson8.component';
+import {DTLLesson9EnglishComponent} from './components/pages/subpages/dutytolead/allenglishlessons/lesson9.component';
+import {DTLLesson10EnglishComponent} from './components/pages/subpages/dutytolead/allenglishlessons/lesson10.component';
+import {DTLLesson11EnglishComponent} from './components/pages/subpages/dutytolead/allenglishlessons/lesson11.component';
+import {DTLLesson12EnglishComponent} from './components/pages/subpages/dutytolead/allenglishlessons/lesson12.component';
+
+//spanishdutytolead
+
+import {DTLLesson1SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson1.component';
+import {DTLLesson2SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson2.component';
+import {DTLLesson3SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson3.component';
+import {DTLLesson4SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson4.component';
+import {DTLLesson5SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson5.component';
+import {DTLLesson6SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson6.component';
+import {DTLLesson7SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson7.component';
+import {DTLLesson8SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson8.component';
+import {DTLLesson9SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson9.component';
+import {DTLLesson10SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson10.component';
+import {DTLLesson11SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson11.component';
+import {DTLLesson12SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson12.component';
+
+//englishdutytoprosper
+
+import {DTPLesson1EnglishComponent} from './components/pages/subpages/dutytoprosper/allenglishlessons/lesson1.component';
+import {DTPLesson2EnglishComponent} from './components/pages/subpages/dutytoprosper/allenglishlessons/lesson2.component';
+import {DTPLesson3EnglishComponent} from './components/pages/subpages/dutytoprosper/allenglishlessons/lesson3.component';
+import {DTPLesson4EnglishComponent} from './components/pages/subpages/dutytoprosper/allenglishlessons/lesson4.component';
+import {DTPLesson5EnglishComponent} from './components/pages/subpages/dutytoprosper/allenglishlessons/lesson5.component';
+import {DTPLesson6EnglishComponent} from './components/pages/subpages/dutytoprosper/allenglishlessons/lesson6.component';
+import {DTPLesson7EnglishComponent} from './components/pages/subpages/dutytoprosper/allenglishlessons/lesson7.component';
+import {DTPLesson8EnglishComponent} from './components/pages/subpages/dutytoprosper/allenglishlessons/lesson8.component';
+import {DTPLesson9EnglishComponent} from './components/pages/subpages/dutytoprosper/allenglishlessons/lesson9.component';
+import {DTPLesson10EnglishComponent} from './components/pages/subpages/dutytoprosper/allenglishlessons/lesson10.component';
+import {DTPLesson11EnglishComponent} from './components/pages/subpages/dutytoprosper/allenglishlessons/lesson11.component';
+import {DTPLesson12EnglishComponent} from './components/pages/subpages/dutytoprosper/allenglishlessons/lesson12.component';
+
+//spanishdutytoprosper
+
+import {DTPLesson1SpanishComponent} from './components/pages/subpages/dutytoprosper/allspanishlessons/lesson1.component';
+import {DTPLesson2SpanishComponent} from './components/pages/subpages/dutytoprosper/allspanishlessons/lesson2.component';
+import {DTPLesson3SpanishComponent} from './components/pages/subpages/dutytoprosper/allspanishlessons/lesson3.component';
+import {DTPLesson4SpanishComponent} from './components/pages/subpages/dutytoprosper/allspanishlessons/lesson4.component';
+import {DTPLesson5SpanishComponent} from './components/pages/subpages/dutytoprosper/allspanishlessons/lesson5.component';
+import {DTPLesson6SpanishComponent} from './components/pages/subpages/dutytoprosper/allspanishlessons/lesson6.component';
+import {DTPLesson7SpanishComponent} from './components/pages/subpages/dutytoprosper/allspanishlessons/lesson7.component';
+import {DTPLesson8SpanishComponent} from './components/pages/subpages/dutytoprosper/allspanishlessons/lesson8.component';
+import {DTPLesson9SpanishComponent} from './components/pages/subpages/dutytoprosper/allspanishlessons/lesson9.component';
+import {DTPLesson10SpanishComponent} from './components/pages/subpages/dutytoprosper/allspanishlessons/lesson10.component';
+import {DTPLesson11SpanishComponent} from './components/pages/subpages/dutytoprosper/allspanishlessons/lesson11.component';
+import {DTPLesson12SpanishComponent} from './components/pages/subpages/dutytoprosper/allspanishlessons/lesson12.component';
 
 //ruleofthumb
 import {RuleofThumbLessonsEnglishComponent} from './components/pages/subpages/ruleofthumb/lessonsenglish.component';
@@ -139,6 +204,10 @@ import {routing} from './app.routing';
                   NavbarComponent,
                   SideMenuBookofLessonsComponent,
                   SideMenuBookofLessonsSpanishComponent,
+                  SideMenuDutytoLeadComponent,
+                  SideMenuDutytoLeadSpanishComponent,
+                  SideMenuDutytoProsperComponent,
+                  SideMenuDutytoProsperSpanishComponent,
                   SideMenuRuleofThumbComponent, 
                   SideMenuRuleofThumbSpanishComponent,
                   JumbotronComponent,
@@ -158,6 +227,8 @@ import {routing} from './app.routing';
                   PsychologyComponent,
                   FinancesComponent,
                   BookofLessonsComponent,
+                  DutytoLeadComponent,
+                  DutytoProsperComponent,
                   FindChapterComponent,
                   LessonsEnglishComponent,
                   LessonsSpanishComponent,
@@ -189,6 +260,54 @@ import {routing} from './app.routing';
                   BOLLesson10SpanishComponent,
                   BOLLesson11SpanishComponent,
                   BOLLesson12SpanishComponent,
+                  DTLLesson1EnglishComponent,
+                  DTLLesson2EnglishComponent,
+                  DTLLesson3EnglishComponent,
+                  DTLLesson4EnglishComponent,
+                  DTLLesson5EnglishComponent,
+                  DTLLesson6EnglishComponent,
+                  DTLLesson7EnglishComponent,
+                  DTLLesson8EnglishComponent,
+                  DTLLesson9EnglishComponent,
+                  DTLLesson10EnglishComponent,
+                  DTLLesson11EnglishComponent,
+                  DTLLesson12EnglishComponent,
+                  DTLLesson1SpanishComponent,
+                  DTLLesson2SpanishComponent,
+                  DTLLesson3SpanishComponent,
+                  DTLLesson4SpanishComponent,
+                  DTLLesson5SpanishComponent,
+                  DTLLesson6SpanishComponent,
+                  DTLLesson7SpanishComponent,
+                  DTLLesson8SpanishComponent,
+                  DTLLesson9SpanishComponent,
+                  DTLLesson10SpanishComponent,
+                  DTLLesson11SpanishComponent,
+                  DTLLesson12SpanishComponent,
+                  DTPLesson1EnglishComponent,
+                  DTPLesson2EnglishComponent,
+                  DTPLesson3EnglishComponent,
+                  DTPLesson4EnglishComponent,
+                  DTPLesson5EnglishComponent,
+                  DTPLesson6EnglishComponent,
+                  DTPLesson7EnglishComponent,
+                  DTPLesson8EnglishComponent,
+                  DTPLesson9EnglishComponent,
+                  DTPLesson10EnglishComponent,
+                  DTPLesson11EnglishComponent,
+                  DTPLesson12EnglishComponent,
+                  DTPLesson1SpanishComponent,
+                  DTPLesson2SpanishComponent,
+                  DTPLesson3SpanishComponent,
+                  DTPLesson4SpanishComponent,
+                  DTPLesson5SpanishComponent,
+                  DTPLesson6SpanishComponent,
+                  DTPLesson7SpanishComponent,
+                  DTPLesson8SpanishComponent,
+                  DTPLesson9SpanishComponent,
+                  DTPLesson10SpanishComponent,
+                  DTPLesson11SpanishComponent,
+                  DTPLesson12SpanishComponent,
                   ROTLesson1EnglishComponent,
                   ROTLesson2EnglishComponent,
                   ROTLesson3EnglishComponent,

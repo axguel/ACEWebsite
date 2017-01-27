@@ -31,10 +31,26 @@
                 </li>
                 <li>
                     <a routerLink="/chapterleaders" class="dropdown-toggle" data-toggle="dropdown">Chapter Leaders<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu multi-level">
                         <li><a href="../app/pdfs/ChapterPresidencyManual.pdf" target="_blank">Chapter Leader Training</a></li>
                         <li><a routerLink="/monthlyagendas">Monthly Agendas</a></li>
-                        <li><a outerLink="/featurecomingsoon">Reporting</a></li>                       
+                        <li><a routerLink="/featurecomingsoon">Reporting</a></li>
+                        
+                            <li class="dropdown-submenu">
+                                <a routerLink="/dutytolead" class="dropdown-toggle" data-toggle="dropdown">Duty to Lead</a>
+                            <ul class="dropdown-menu">
+                                <li><a routerLink="/dutytoleadlesson1English">English</a></li>
+                                <li><a routerLink="/dutytoleadlesson1Spanish">Español</a></li>  
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                                <a routerLink="/dutytoprosper" class="dropdown-toggle" data-toggle="dropdown">Duty to Prosper</a>
+                            <ul class="dropdown-menu">
+                                <li><a routerLink="/dutytoprosperlesson1English">English</a></li>
+                                <li><a routerLink="/dutytoprosperlesson1Spanish">Español</a></li>  
+                            </ul>
+                        </li> 
+
                     </ul>
                 </li>
                 <li>
