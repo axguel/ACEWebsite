@@ -26,7 +26,6 @@ var sidemenuruleofthumbspanish_component_1 = require('./components/sidemenuruleo
 //the main pages
 var home_component_1 = require('./components/pages/home.component');
 var about_component_1 = require('./components/pages/about.component');
-var donors_component_1 = require('./components/pages/donors.component');
 var mychapter_component_1 = require('./components/pages/mychapter.component');
 var chapterleaders_component_1 = require('./components/pages/chapterleaders.component');
 var businessresources_component_1 = require('./components/pages/businessresources.component');
@@ -34,10 +33,6 @@ var contact_component_1 = require('./components/pages/contact.component');
 var comingsoon_component_1 = require('./components/pages/comingsoon.component');
 //subpages
 var agenda_component_1 = require('./components/pages/subpages/agenda.component');
-var hiring_component_1 = require('./components/pages/subpages/hiring.component');
-var building_component_1 = require('./components/pages/subpages/building.component');
-var psychology_component_1 = require('./components/pages/subpages/psychology.component');
-var finances_component_1 = require('./components/pages/subpages/finances.component');
 var bookoflessons_component_1 = require('./components/pages/subpages/bookoflessons.component');
 var dutytolead_component_1 = require('./components/pages/subpages/dutytolead.component');
 var dutytoprosper_component_1 = require('./components/pages/subpages/dutytoprosper.component');
@@ -48,6 +43,26 @@ var legalities_component_1 = require('./components/pages/subpages/legalities/leg
 var mexicolegalities_component_1 = require('./components/pages/subpages/legalities/mexicolegalities.component');
 var philegalities_component_1 = require('./components/pages/subpages/legalities/philegalities.component');
 var perulegalities_component_1 = require('./components/pages/subpages/legalities/perulegalities.component');
+//finances
+var finances_component_1 = require('./components/pages/subpages/financials/finances.component');
+var mexicofinances_component_1 = require('./components/pages/subpages/financials/mexicofinances.component');
+var phifinances_component_1 = require('./components/pages/subpages/financials/phifinances.component');
+var perufinances_component_1 = require('./components/pages/subpages/financials/perufinances.component');
+//psychology
+var psychology_component_1 = require('./components/pages/subpages/psychology/psychology.component');
+var mexicopsychology_component_1 = require('./components/pages/subpages/psychology/mexicopsychology.component');
+var phipsychology_component_1 = require('./components/pages/subpages/psychology/phipsychology.component');
+var perupsychology_component_1 = require('./components/pages/subpages/psychology/perupsychology.component');
+//building
+var building_component_1 = require('./components/pages/subpages/buildingandmain/building.component');
+var mexicobuilding_component_1 = require('./components/pages/subpages/buildingandmain/mexicobuilding.component');
+var phibuilding_component_1 = require('./components/pages/subpages/buildingandmain/phibuilding.component');
+var perubuilding_component_1 = require('./components/pages/subpages/buildingandmain/perubuilding.component');
+//hiring
+var hiring_component_1 = require('./components/pages/subpages/hiring/hiring.component');
+var mexicohiring_component_1 = require('./components/pages/subpages/hiring/mexicohiring.component');
+var phihiring_component_1 = require('./components/pages/subpages/hiring/phihiring.component');
+var peruhiring_component_1 = require('./components/pages/subpages/hiring/peruhiring.component');
 //lessonspages
 var lessonsenglish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsenglish.component');
 var lessonsspanish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsspanish.component');
@@ -208,7 +223,6 @@ var AppModule = (function () {
                 home_component_1.HomeComponent,
                 comingsoon_component_1.ComingSoonComponent,
                 about_component_1.AboutComponent,
-                donors_component_1.DonorsComponent,
                 mychapter_component_1.MyChapterComponent,
                 chapterleaders_component_1.ChapterLeadersComponent,
                 businessresources_component_1.BusinessResourcesComponent,
@@ -353,7 +367,19 @@ var AppModule = (function () {
                 lesson25_component_2.ROTLesson25SpanishComponent,
                 perulegalities_component_1.PeruLegalitiesComponent,
                 philegalities_component_1.PhiLegalitiesComponent,
-                mexicolegalities_component_1.MexicoLegalitiesComponent],
+                mexicolegalities_component_1.MexicoLegalitiesComponent,
+                peruhiring_component_1.PeruHiringComponent,
+                phihiring_component_1.PhiHiringComponent,
+                mexicohiring_component_1.MexicoHiringComponent,
+                perubuilding_component_1.PeruBuildingComponent,
+                phibuilding_component_1.PhiBuildingComponent,
+                mexicobuilding_component_1.MexicoBuildingComponent,
+                perufinances_component_1.PeruFinancesComponent,
+                phifinances_component_1.PhiFinancesComponent,
+                mexicofinances_component_1.MexicoFinancesComponent,
+                perupsychology_component_1.PeruPsychologyComponent,
+                phipsychology_component_1.PhiPsychologyComponent,
+                mexicopsychology_component_1.MexicoPsychologyComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

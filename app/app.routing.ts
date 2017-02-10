@@ -3,7 +3,6 @@ import {Routes, RouterModule} from '@angular/router';
 
 import {HomeComponent} from './components/pages/home.component';
 import {AboutComponent} from './components/pages/about.component';
-import {DonorsComponent} from './components/pages/donors.component';
 import {MyChapterComponent} from './components/pages/mychapter.component';
 import {ChapterLeadersComponent} from './components/pages/chapterleaders.component';
 import {BusinessResourcesComponent} from './components/pages/businessresources.component';
@@ -12,21 +11,46 @@ import {ContactComponent} from './components/pages/contact.component';
 
 //subpages
 import {AgendaComponent} from './components/pages/subpages/agenda.component';
-import {HiringComponent} from './components/pages/subpages/hiring.component';
-import {BuildingComponent} from './components/pages/subpages/building.component';
-import {PsychologyComponent} from './components/pages/subpages/psychology.component';
-import {FinancesComponent} from './components/pages/subpages/finances.component';
 import {BookofLessonsComponent} from './components/pages/subpages/bookoflessons.component';
 import {DutytoLeadComponent} from './components/pages/subpages/dutytolead.component';
 import {DutytoProsperComponent} from './components/pages/subpages/dutytoprosper.component';
 import {RuleofThumbComponent} from './components/pages/subpages/ruleofthumb.component';
 import {FindChapterComponent} from './components/pages/subpages/findchapter.component';
 
+
 //legalities
 import {LegalitiesComponent} from './components/pages/subpages/legalities/legalities.component';
 import {MexicoLegalitiesComponent} from './components/pages/subpages/legalities/mexicolegalities.component';
 import {PhiLegalitiesComponent} from './components/pages/subpages/legalities/philegalities.component';
 import {PeruLegalitiesComponent} from './components/pages/subpages/legalities/perulegalities.component';
+
+
+//finances
+import {FinancesComponent} from './components/pages/subpages/financials/finances.component';
+import {MexicoFinancesComponent} from './components/pages/subpages/financials/mexicofinances.component';
+import {PhiFinancesComponent} from './components/pages/subpages/financials/phifinances.component';
+import {PeruFinancesComponent} from './components/pages/subpages/financials/perufinances.component';
+
+
+//psychology
+import {PsychologyComponent} from './components/pages/subpages/psychology/psychology.component';
+import {MexicoPsychologyComponent} from './components/pages/subpages/psychology/mexicopsychology.component';
+import {PhiPsychologyComponent} from './components/pages/subpages/psychology/phipsychology.component';
+import {PeruPsychologyComponent} from './components/pages/subpages/psychology/perupsychology.component';
+
+
+//building
+import {BuildingComponent} from './components/pages/subpages/buildingandmain/building.component';
+import {MexicoBuildingComponent} from './components/pages/subpages/buildingandmain/mexicobuilding.component';
+import {PhiBuildingComponent} from './components/pages/subpages/buildingandmain/phibuilding.component';
+import {PeruBuildingComponent} from './components/pages/subpages/buildingandmain/perubuilding.component';
+
+
+//hiring
+import {HiringComponent} from './components/pages/subpages/hiring/hiring.component';
+import {MexicoHiringComponent} from './components/pages/subpages/hiring/mexicohiring.component';
+import {PhiHiringComponent} from './components/pages/subpages/hiring/phihiring.component';
+import {PeruHiringComponent} from './components/pages/subpages/hiring/peruhiring.component';
 
 
 //lessonspages
@@ -191,10 +215,6 @@ const appRoutes: Routes = [
     {
         path:'about',
         component: AboutComponent
-    },
-    {
-        path:'donors',
-        component: DonorsComponent
     },
     {
         path:'mychapter',
@@ -780,6 +800,54 @@ const appRoutes: Routes = [
         path:'dutytoprosperlesson12Spanish',
         component:DTPLesson12SpanishComponent
     },
+    {
+        path:'mexicohiring',
+        component:MexicoHiringComponent
+    },
+    {
+        path:'peruhiring',
+        component:PeruHiringComponent
+    },
+    {
+        path:'phihiring',
+        component:PhiHiringComponent
+    },
+    {
+        path:'mexicobuilding',
+        component:MexicoBuildingComponent
+    },
+    {
+        path:'perubuilding',
+        component:PeruBuildingComponent
+    },
+    {
+        path:'phibuilding',
+        component:PhiBuildingComponent
+    },
+    {
+        path:'mexicopsychology',
+        component:MexicoPsychologyComponent
+    },
+    {
+        path:'perupsychology',
+        component:PeruPsychologyComponent
+    },
+    {
+        path:'phipsychology',
+        component:PhiPsychologyComponent
+    },
+    {
+        path:'mexicofinances',
+        component:MexicoFinancesComponent
+    },
+    {
+        path:'perufinances',
+        component:PeruFinancesComponent
+    },
+    {
+        path:'phifinances',
+        component:PhiFinancesComponent
+    }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

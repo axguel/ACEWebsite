@@ -2,7 +2,6 @@
 var router_1 = require('@angular/router');
 var home_component_1 = require('./components/pages/home.component');
 var about_component_1 = require('./components/pages/about.component');
-var donors_component_1 = require('./components/pages/donors.component');
 var mychapter_component_1 = require('./components/pages/mychapter.component');
 var chapterleaders_component_1 = require('./components/pages/chapterleaders.component');
 var businessresources_component_1 = require('./components/pages/businessresources.component');
@@ -10,10 +9,6 @@ var comingsoon_component_1 = require('./components/pages/comingsoon.component');
 var contact_component_1 = require('./components/pages/contact.component');
 //subpages
 var agenda_component_1 = require('./components/pages/subpages/agenda.component');
-var hiring_component_1 = require('./components/pages/subpages/hiring.component');
-var building_component_1 = require('./components/pages/subpages/building.component');
-var psychology_component_1 = require('./components/pages/subpages/psychology.component');
-var finances_component_1 = require('./components/pages/subpages/finances.component');
 var bookoflessons_component_1 = require('./components/pages/subpages/bookoflessons.component');
 var dutytolead_component_1 = require('./components/pages/subpages/dutytolead.component');
 var dutytoprosper_component_1 = require('./components/pages/subpages/dutytoprosper.component');
@@ -24,6 +19,26 @@ var legalities_component_1 = require('./components/pages/subpages/legalities/leg
 var mexicolegalities_component_1 = require('./components/pages/subpages/legalities/mexicolegalities.component');
 var philegalities_component_1 = require('./components/pages/subpages/legalities/philegalities.component');
 var perulegalities_component_1 = require('./components/pages/subpages/legalities/perulegalities.component');
+//finances
+var finances_component_1 = require('./components/pages/subpages/financials/finances.component');
+var mexicofinances_component_1 = require('./components/pages/subpages/financials/mexicofinances.component');
+var phifinances_component_1 = require('./components/pages/subpages/financials/phifinances.component');
+var perufinances_component_1 = require('./components/pages/subpages/financials/perufinances.component');
+//psychology
+var psychology_component_1 = require('./components/pages/subpages/psychology/psychology.component');
+var mexicopsychology_component_1 = require('./components/pages/subpages/psychology/mexicopsychology.component');
+var phipsychology_component_1 = require('./components/pages/subpages/psychology/phipsychology.component');
+var perupsychology_component_1 = require('./components/pages/subpages/psychology/perupsychology.component');
+//building
+var building_component_1 = require('./components/pages/subpages/buildingandmain/building.component');
+var mexicobuilding_component_1 = require('./components/pages/subpages/buildingandmain/mexicobuilding.component');
+var phibuilding_component_1 = require('./components/pages/subpages/buildingandmain/phibuilding.component');
+var perubuilding_component_1 = require('./components/pages/subpages/buildingandmain/perubuilding.component');
+//hiring
+var hiring_component_1 = require('./components/pages/subpages/hiring/hiring.component');
+var mexicohiring_component_1 = require('./components/pages/subpages/hiring/mexicohiring.component');
+var phihiring_component_1 = require('./components/pages/subpages/hiring/phihiring.component');
+var peruhiring_component_1 = require('./components/pages/subpages/hiring/peruhiring.component');
 //lessonspages
 var lessonsenglish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsenglish.component');
 var lessonsspanish_component_1 = require('./components/pages/subpages/bookoflessons/lessonsspanish.component');
@@ -168,10 +183,6 @@ var appRoutes = [
     {
         path: 'about',
         component: about_component_1.AboutComponent
-    },
-    {
-        path: 'donors',
-        component: donors_component_1.DonorsComponent
     },
     {
         path: 'mychapter',
@@ -757,6 +768,54 @@ var appRoutes = [
         path: 'dutytoprosperlesson12Spanish',
         component: lesson12_component_8.DTPLesson12SpanishComponent
     },
+    {
+        path: 'mexicohiring',
+        component: mexicohiring_component_1.MexicoHiringComponent
+    },
+    {
+        path: 'peruhiring',
+        component: peruhiring_component_1.PeruHiringComponent
+    },
+    {
+        path: 'phihiring',
+        component: phihiring_component_1.PhiHiringComponent
+    },
+    {
+        path: 'mexicobuilding',
+        component: mexicobuilding_component_1.MexicoBuildingComponent
+    },
+    {
+        path: 'perubuilding',
+        component: perubuilding_component_1.PeruBuildingComponent
+    },
+    {
+        path: 'phibuilding',
+        component: phibuilding_component_1.PhiBuildingComponent
+    },
+    {
+        path: 'mexicopsychology',
+        component: mexicopsychology_component_1.MexicoPsychologyComponent
+    },
+    {
+        path: 'perupsychology',
+        component: perupsychology_component_1.PeruPsychologyComponent
+    },
+    {
+        path: 'phipsychology',
+        component: phipsychology_component_1.PhiPsychologyComponent
+    },
+    {
+        path: 'mexicofinances',
+        component: mexicofinances_component_1.MexicoFinancesComponent
+    },
+    {
+        path: 'perufinances',
+        component: perufinances_component_1.PeruFinancesComponent
+    },
+    {
+        path: 'phifinances',
+        component: phifinances_component_1.PhiFinancesComponent
+    }
 ];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);
 //# sourceMappingURL=app.routing.js.map

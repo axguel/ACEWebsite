@@ -18,7 +18,6 @@ import {SideMenuRuleofThumbSpanishComponent} from './components/sidemenuruleofth
 //the main pages
 import {HomeComponent} from './components/pages/home.component';
 import {AboutComponent} from './components/pages/about.component';
-import {DonorsComponent} from './components/pages/donors.component';
 import {MyChapterComponent} from './components/pages/mychapter.component';
 import {ChapterLeadersComponent} from './components/pages/chapterleaders.component';
 import {BusinessResourcesComponent} from './components/pages/businessresources.component';
@@ -27,10 +26,6 @@ import {ComingSoonComponent} from './components/pages/comingsoon.component';
 
 //subpages
 import {AgendaComponent} from './components/pages/subpages/agenda.component';
-import {HiringComponent} from './components/pages/subpages/hiring.component';
-import {BuildingComponent} from './components/pages/subpages/building.component';
-import {PsychologyComponent} from './components/pages/subpages/psychology.component';
-import {FinancesComponent} from './components/pages/subpages/finances.component';
 import {BookofLessonsComponent} from './components/pages/subpages/bookoflessons.component';
 import {DutytoLeadComponent} from './components/pages/subpages/dutytolead.component';
 import {DutytoProsperComponent} from './components/pages/subpages/dutytoprosper.component';
@@ -42,6 +37,34 @@ import {LegalitiesComponent} from './components/pages/subpages/legalities/legali
 import {MexicoLegalitiesComponent} from './components/pages/subpages/legalities/mexicolegalities.component';
 import {PhiLegalitiesComponent} from './components/pages/subpages/legalities/philegalities.component';
 import {PeruLegalitiesComponent} from './components/pages/subpages/legalities/perulegalities.component';
+
+
+//finances
+import {FinancesComponent} from './components/pages/subpages/financials/finances.component';
+import {MexicoFinancesComponent} from './components/pages/subpages/financials/mexicofinances.component';
+import {PhiFinancesComponent} from './components/pages/subpages/financials/phifinances.component';
+import {PeruFinancesComponent} from './components/pages/subpages/financials/perufinances.component';
+
+
+//psychology
+import {PsychologyComponent} from './components/pages/subpages/psychology/psychology.component';
+import {MexicoPsychologyComponent} from './components/pages/subpages/psychology/mexicopsychology.component';
+import {PhiPsychologyComponent} from './components/pages/subpages/psychology/phipsychology.component';
+import {PeruPsychologyComponent} from './components/pages/subpages/psychology/perupsychology.component';
+
+
+//building
+import {BuildingComponent} from './components/pages/subpages/buildingandmain/building.component';
+import {MexicoBuildingComponent} from './components/pages/subpages/buildingandmain/mexicobuilding.component';
+import {PhiBuildingComponent} from './components/pages/subpages/buildingandmain/phibuilding.component';
+import {PeruBuildingComponent} from './components/pages/subpages/buildingandmain/perubuilding.component';
+
+
+//hiring
+import {HiringComponent} from './components/pages/subpages/hiring/hiring.component';
+import {MexicoHiringComponent} from './components/pages/subpages/hiring/mexicohiring.component';
+import {PhiHiringComponent} from './components/pages/subpages/hiring/phihiring.component';
+import {PeruHiringComponent} from './components/pages/subpages/hiring/peruhiring.component';
 
 
 //lessonspages
@@ -215,7 +238,6 @@ import {routing} from './app.routing';
                   HomeComponent,
                   ComingSoonComponent,
                   AboutComponent,
-                  DonorsComponent,
                   MyChapterComponent,
                   ChapterLeadersComponent,
                   BusinessResourcesComponent,
@@ -360,7 +382,19 @@ import {routing} from './app.routing';
                   ROTLesson25SpanishComponent,
                   PeruLegalitiesComponent,
                   PhiLegalitiesComponent,
-                  MexicoLegalitiesComponent ],
+                  MexicoLegalitiesComponent,
+                  PeruHiringComponent,
+                  PhiHiringComponent,
+                  MexicoHiringComponent,
+                  PeruBuildingComponent,
+                  PhiBuildingComponent,
+                  MexicoBuildingComponent,
+                  PeruFinancesComponent,
+                  PhiFinancesComponent,
+                  MexicoFinancesComponent,
+                  PeruPsychologyComponent,
+                  PhiPsychologyComponent,
+                  MexicoPsychologyComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
