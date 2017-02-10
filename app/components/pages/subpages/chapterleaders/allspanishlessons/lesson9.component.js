@@ -9,18 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var DTLLesson9SpanishComponent = (function () {
-    function DTLLesson9SpanishComponent() {
+var CLLesson9SpanishComponent = (function () {
+    function CLLesson9SpanishComponent() {
     }
-    DTLLesson9SpanishComponent = __decorate([
+    CLLesson9SpanishComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'dutytoleadlesson9spanish',
+            selector: 'chleadershiplesson9spanish',
             templateUrl: 'lesson9.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], DTLLesson9SpanishComponent);
-    return DTLLesson9SpanishComponent;
+    ], CLLesson9SpanishComponent);
+    return CLLesson9SpanishComponent;
 }());
-exports.DTLLesson9SpanishComponent = DTLLesson9SpanishComponent;
+exports.CLLesson9SpanishComponent = CLLesson9SpanishComponent;
 //# sourceMappingURL=lesson9.component.js.map

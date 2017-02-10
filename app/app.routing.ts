@@ -175,6 +175,38 @@ import {DTLLesson10SpanishComponent} from './components/pages/subpages/dutytolea
 import {DTLLesson11SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson11.component';
 import {DTLLesson12SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson12.component';
 
+//englishchleadership
+
+import {CLLesson1EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson1.component';
+import {CLLesson2EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson2.component';
+import {CLLesson3EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson3.component';
+import {CLLesson4EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson4.component';
+import {CLLesson5EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson5.component';
+import {CLLesson6EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson6.component';
+import {CLLesson7EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson7.component';
+import {CLLesson8EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson8.component';
+import {CLLesson9EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson9.component';
+import {CLLesson10EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson10.component';
+import {CLLesson11EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson11.component';
+import {CLLesson12EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson12.component';
+import {CLLesson13EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson13.component';
+
+//spanishchapterleaders
+
+import {CLLesson1SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson1.component';
+import {CLLesson2SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson2.component';
+import {CLLesson3SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson3.component';
+import {CLLesson4SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson4.component';
+import {CLLesson5SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson5.component';
+import {CLLesson6SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson6.component';
+import {CLLesson7SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson7.component';
+import {CLLesson8SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson8.component';
+import {CLLesson9SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson9.component';
+import {CLLesson10SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson10.component';
+import {CLLesson11SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson11.component';
+import {CLLesson12SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson12.component';
+import {CLLesson13SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson13.component';
+
 //englishdutytoprosper
 
 import {DTPLesson1EnglishComponent} from './components/pages/subpages/dutytoprosper/allenglishlessons/lesson1.component';
@@ -847,6 +879,110 @@ const appRoutes: Routes = [
     {
         path:'phifinances',
         component:PhiFinancesComponent
+    },
+    {
+        path:'chleadershiplesson1English',
+        component:CLLesson1EnglishComponent
+    },
+    {
+        path:'chleadershiplesson2English',
+        component:CLLesson2EnglishComponent
+    },
+    {
+        path:'chleadershiplesson3English',
+        component:CLLesson3EnglishComponent
+    },
+    {
+        path:'chleadershiplesson4English',
+        component:CLLesson4EnglishComponent
+    },
+    {
+        path:'chleadershiplesson5English',
+        component:CLLesson5EnglishComponent
+    },
+    {
+        path:'chleadershiplesson6English',
+        component:CLLesson6EnglishComponent
+    },
+    {
+        path:'chleadershiplesson7English',
+        component:CLLesson7EnglishComponent
+    },
+    {
+        path:'chleadershiplesson8English',
+        component:CLLesson8EnglishComponent
+    },
+    {
+        path:'chleadershiplesson9English',
+        component:CLLesson9EnglishComponent
+    },
+    {
+        path:'chleadershiplesson10English',
+        component:CLLesson10EnglishComponent
+    },
+    {
+        path:'chleadershiplesson11English',
+        component:CLLesson11EnglishComponent
+    },
+    {
+        path:'chleadershiplesson12English',
+        component:CLLesson12EnglishComponent
+    },
+    {
+        path:'chleadershiplesson1Spanish',
+        component:CLLesson1SpanishComponent
+    },
+    {
+        path:'chleadershiplesson2Spanish',
+        component:CLLesson2SpanishComponent
+    },
+    {
+        path:'chleadershiplesson3Spanish',
+        component:CLLesson3SpanishComponent
+    },
+    {
+        path:'chleadershiplesson4Spanish',
+        component:CLLesson4SpanishComponent
+    },
+    {
+        path:'chleadershiplesson5Spanish',
+        component:CLLesson5SpanishComponent
+    },
+    {
+        path:'chleadershiplesson6Spanish',
+        component:CLLesson6SpanishComponent
+    },
+    {
+        path:'chleadershiplesson7Spanish',
+        component:CLLesson7SpanishComponent
+    },
+    {
+        path:'chleadershiplesson8Spanish',
+        component:CLLesson8SpanishComponent
+    },
+    {
+        path:'chleadershiplesson9Spanish',
+        component:CLLesson9SpanishComponent
+    },
+    {
+        path:'chleadershiplesson10Spanish',
+        component:CLLesson10SpanishComponent
+    },
+    {
+        path:'chleadershiplesson11Spanish',
+        component:CLLesson11SpanishComponent
+    },
+    {
+        path:'chleadershiplesson12Spanish',
+        component:CLLesson12SpanishComponent
+    },
+    {
+        path:'chleadershiplesson13Spanish',
+        component:CLLesson13SpanishComponent
+    },
+    {
+        path:'chleadershiplesson13English',
+        component:CLLesson13EnglishComponent
     }
 ];
 

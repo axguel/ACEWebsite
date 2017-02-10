@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
   selector: 'dutytoleadlesson3spanish',
   templateUrl: 'lesson3.component.html'
 })
-export class DTLLesson3SpanishComponent {
+export class CLLesson3SpanishComponent {
 }

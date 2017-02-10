@@ -23,6 +23,8 @@ var sidemenudutytoprosper_component_1 = require('./components/sidemenudutytopros
 var sidemenudutytoprosperspanish_component_1 = require('./components/sidemenudutytoprosper/sidemenudutytoprosperspanish.component');
 var sidemenuruleofthumb_component_1 = require('./components/sidemenuruleofthumb/sidemenuruleofthumb.component');
 var sidemenuruleofthumbspanish_component_1 = require('./components/sidemenuruleofthumb/sidemenuruleofthumbspanish.component');
+var sidemenuchleadership_component_1 = require('./components/sidemenuchapterleaders/sidemenuchleadership.component');
+var sidemenuchleadershipspanish_component_1 = require('./components/sidemenuchapterleaders/sidemenuchleadershipspanish.component');
 //the main pages
 var home_component_1 = require('./components/pages/home.component');
 var about_component_1 = require('./components/pages/about.component');
@@ -119,49 +121,77 @@ var lesson9_component_4 = require('./components/pages/subpages/dutytolead/allspa
 var lesson10_component_4 = require('./components/pages/subpages/dutytolead/allspanishlessons/lesson10.component');
 var lesson11_component_4 = require('./components/pages/subpages/dutytolead/allspanishlessons/lesson11.component');
 var lesson12_component_4 = require('./components/pages/subpages/dutytolead/allspanishlessons/lesson12.component');
+//englishchleadership
+var lesson1_component_5 = require('./components/pages/subpages/chapterleaders/allenglishlessons/lesson1.component');
+var lesson2_component_5 = require('./components/pages/subpages/chapterleaders/allenglishlessons/lesson2.component');
+var lesson3_component_5 = require('./components/pages/subpages/chapterleaders/allenglishlessons/lesson3.component');
+var lesson4_component_5 = require('./components/pages/subpages/chapterleaders/allenglishlessons/lesson4.component');
+var lesson5_component_5 = require('./components/pages/subpages/chapterleaders/allenglishlessons/lesson5.component');
+var lesson6_component_5 = require('./components/pages/subpages/chapterleaders/allenglishlessons/lesson6.component');
+var lesson7_component_5 = require('./components/pages/subpages/chapterleaders/allenglishlessons/lesson7.component');
+var lesson8_component_5 = require('./components/pages/subpages/chapterleaders/allenglishlessons/lesson8.component');
+var lesson9_component_5 = require('./components/pages/subpages/chapterleaders/allenglishlessons/lesson9.component');
+var lesson10_component_5 = require('./components/pages/subpages/chapterleaders/allenglishlessons/lesson10.component');
+var lesson11_component_5 = require('./components/pages/subpages/chapterleaders/allenglishlessons/lesson11.component');
+var lesson12_component_5 = require('./components/pages/subpages/chapterleaders/allenglishlessons/lesson12.component');
+var lesson13_component_1 = require('./components/pages/subpages/chapterleaders/allenglishlessons/lesson13.component');
+//spanishchapterleaders
+var lesson1_component_6 = require('./components/pages/subpages/chapterleaders/allspanishlessons/lesson1.component');
+var lesson2_component_6 = require('./components/pages/subpages/chapterleaders/allspanishlessons/lesson2.component');
+var lesson3_component_6 = require('./components/pages/subpages/chapterleaders/allspanishlessons/lesson3.component');
+var lesson4_component_6 = require('./components/pages/subpages/chapterleaders/allspanishlessons/lesson4.component');
+var lesson5_component_6 = require('./components/pages/subpages/chapterleaders/allspanishlessons/lesson5.component');
+var lesson6_component_6 = require('./components/pages/subpages/chapterleaders/allspanishlessons/lesson6.component');
+var lesson7_component_6 = require('./components/pages/subpages/chapterleaders/allspanishlessons/lesson7.component');
+var lesson8_component_6 = require('./components/pages/subpages/chapterleaders/allspanishlessons/lesson8.component');
+var lesson9_component_6 = require('./components/pages/subpages/chapterleaders/allspanishlessons/lesson9.component');
+var lesson10_component_6 = require('./components/pages/subpages/chapterleaders/allspanishlessons/lesson10.component');
+var lesson11_component_6 = require('./components/pages/subpages/chapterleaders/allspanishlessons/lesson11.component');
+var lesson12_component_6 = require('./components/pages/subpages/chapterleaders/allspanishlessons/lesson12.component');
+var lesson13_component_2 = require('./components/pages/subpages/chapterleaders/allspanishlessons/lesson13.component');
 //englishdutytoprosper
-var lesson1_component_5 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson1.component');
-var lesson2_component_5 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson2.component');
-var lesson3_component_5 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson3.component');
-var lesson4_component_5 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson4.component');
-var lesson5_component_5 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson5.component');
-var lesson6_component_5 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson6.component');
-var lesson7_component_5 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson7.component');
-var lesson8_component_5 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson8.component');
-var lesson9_component_5 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson9.component');
-var lesson10_component_5 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson10.component');
-var lesson11_component_5 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson11.component');
-var lesson12_component_5 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson12.component');
+var lesson1_component_7 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson1.component');
+var lesson2_component_7 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson2.component');
+var lesson3_component_7 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson3.component');
+var lesson4_component_7 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson4.component');
+var lesson5_component_7 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson5.component');
+var lesson6_component_7 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson6.component');
+var lesson7_component_7 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson7.component');
+var lesson8_component_7 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson8.component');
+var lesson9_component_7 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson9.component');
+var lesson10_component_7 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson10.component');
+var lesson11_component_7 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson11.component');
+var lesson12_component_7 = require('./components/pages/subpages/dutytoprosper/allenglishlessons/lesson12.component');
 //spanishdutytoprosper
-var lesson1_component_6 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson1.component');
-var lesson2_component_6 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson2.component');
-var lesson3_component_6 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson3.component');
-var lesson4_component_6 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson4.component');
-var lesson5_component_6 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson5.component');
-var lesson6_component_6 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson6.component');
-var lesson7_component_6 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson7.component');
-var lesson8_component_6 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson8.component');
-var lesson9_component_6 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson9.component');
-var lesson10_component_6 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson10.component');
-var lesson11_component_6 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson11.component');
-var lesson12_component_6 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson12.component');
+var lesson1_component_8 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson1.component');
+var lesson2_component_8 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson2.component');
+var lesson3_component_8 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson3.component');
+var lesson4_component_8 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson4.component');
+var lesson5_component_8 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson5.component');
+var lesson6_component_8 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson6.component');
+var lesson7_component_8 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson7.component');
+var lesson8_component_8 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson8.component');
+var lesson9_component_8 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson9.component');
+var lesson10_component_8 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson10.component');
+var lesson11_component_8 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson11.component');
+var lesson12_component_8 = require('./components/pages/subpages/dutytoprosper/allspanishlessons/lesson12.component');
 //ruleofthumb
 var lessonsenglish_component_2 = require('./components/pages/subpages/ruleofthumb/lessonsenglish.component');
 var lessonsspanish_component_2 = require('./components/pages/subpages/ruleofthumb/lessonsspanish.component');
 //englishruleofthumblessons
-var lesson1_component_7 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson1.component');
-var lesson2_component_7 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson2.component');
-var lesson3_component_7 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson3.component');
-var lesson4_component_7 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson4.component');
-var lesson5_component_7 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson5.component');
-var lesson6_component_7 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson6.component');
-var lesson7_component_7 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson7.component');
-var lesson8_component_7 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson8.component');
-var lesson9_component_7 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson9.component');
-var lesson10_component_7 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson10.component');
-var lesson11_component_7 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson11.component');
-var lesson12_component_7 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson12.component');
-var lesson13_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson13.component');
+var lesson1_component_9 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson1.component');
+var lesson2_component_9 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson2.component');
+var lesson3_component_9 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson3.component');
+var lesson4_component_9 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson4.component');
+var lesson5_component_9 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson5.component');
+var lesson6_component_9 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson6.component');
+var lesson7_component_9 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson7.component');
+var lesson8_component_9 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson8.component');
+var lesson9_component_9 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson9.component');
+var lesson10_component_9 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson10.component');
+var lesson11_component_9 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson11.component');
+var lesson12_component_9 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson12.component');
+var lesson13_component_3 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson13.component');
 var lesson14_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson14.component');
 var lesson15_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson15.component');
 var lesson16_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson16.component');
@@ -175,19 +205,19 @@ var lesson23_component_1 = require('./components/pages/subpages/ruleofthumb/alle
 var lesson24_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson24.component');
 var lesson25_component_1 = require('./components/pages/subpages/ruleofthumb/allenglishlessons/lesson25.component');
 //spanishruleofthumblessons
-var lesson1_component_8 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson1.component');
-var lesson2_component_8 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson2.component');
-var lesson3_component_8 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson3.component');
-var lesson4_component_8 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson4.component');
-var lesson5_component_8 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson5.component');
-var lesson6_component_8 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson6.component');
-var lesson7_component_8 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson7.component');
-var lesson8_component_8 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson8.component');
-var lesson9_component_8 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson9.component');
-var lesson10_component_8 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson10.component');
-var lesson11_component_8 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson11.component');
-var lesson12_component_8 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson12.component');
-var lesson13_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson13.component');
+var lesson1_component_10 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson1.component');
+var lesson2_component_10 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson2.component');
+var lesson3_component_10 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson3.component');
+var lesson4_component_10 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson4.component');
+var lesson5_component_10 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson5.component');
+var lesson6_component_10 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson6.component');
+var lesson7_component_10 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson7.component');
+var lesson8_component_10 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson8.component');
+var lesson9_component_10 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson9.component');
+var lesson10_component_10 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson10.component');
+var lesson11_component_10 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson11.component');
+var lesson12_component_10 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson12.component');
+var lesson13_component_4 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson13.component');
 var lesson14_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson14.component');
 var lesson15_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson15.component');
 var lesson16_component_2 = require('./components/pages/subpages/ruleofthumb/allspanishlessons/lesson16.component');
@@ -218,6 +248,8 @@ var AppModule = (function () {
                 sidemenudutytoprosperspanish_component_1.SideMenuDutytoProsperSpanishComponent,
                 sidemenuruleofthumb_component_1.SideMenuRuleofThumbComponent,
                 sidemenuruleofthumbspanish_component_1.SideMenuRuleofThumbSpanishComponent,
+                sidemenuchleadership_component_1.SideMenuChleadershipComponent,
+                sidemenuchleadershipspanish_component_1.SideMenuChleadershipSpanishComponent,
                 jumbotron_component_1.JumbotronComponent,
                 footer_component_1.FooterComponent,
                 home_component_1.HomeComponent,
@@ -291,43 +323,43 @@ var AppModule = (function () {
                 lesson10_component_4.DTLLesson10SpanishComponent,
                 lesson11_component_4.DTLLesson11SpanishComponent,
                 lesson12_component_4.DTLLesson12SpanishComponent,
-                lesson1_component_5.DTPLesson1EnglishComponent,
-                lesson2_component_5.DTPLesson2EnglishComponent,
-                lesson3_component_5.DTPLesson3EnglishComponent,
-                lesson4_component_5.DTPLesson4EnglishComponent,
-                lesson5_component_5.DTPLesson5EnglishComponent,
-                lesson6_component_5.DTPLesson6EnglishComponent,
-                lesson7_component_5.DTPLesson7EnglishComponent,
-                lesson8_component_5.DTPLesson8EnglishComponent,
-                lesson9_component_5.DTPLesson9EnglishComponent,
-                lesson10_component_5.DTPLesson10EnglishComponent,
-                lesson11_component_5.DTPLesson11EnglishComponent,
-                lesson12_component_5.DTPLesson12EnglishComponent,
-                lesson1_component_6.DTPLesson1SpanishComponent,
-                lesson2_component_6.DTPLesson2SpanishComponent,
-                lesson3_component_6.DTPLesson3SpanishComponent,
-                lesson4_component_6.DTPLesson4SpanishComponent,
-                lesson5_component_6.DTPLesson5SpanishComponent,
-                lesson6_component_6.DTPLesson6SpanishComponent,
-                lesson7_component_6.DTPLesson7SpanishComponent,
-                lesson8_component_6.DTPLesson8SpanishComponent,
-                lesson9_component_6.DTPLesson9SpanishComponent,
-                lesson10_component_6.DTPLesson10SpanishComponent,
-                lesson11_component_6.DTPLesson11SpanishComponent,
-                lesson12_component_6.DTPLesson12SpanishComponent,
-                lesson1_component_7.ROTLesson1EnglishComponent,
-                lesson2_component_7.ROTLesson2EnglishComponent,
-                lesson3_component_7.ROTLesson3EnglishComponent,
-                lesson4_component_7.ROTLesson4EnglishComponent,
-                lesson5_component_7.ROTLesson5EnglishComponent,
-                lesson6_component_7.ROTLesson6EnglishComponent,
-                lesson7_component_7.ROTLesson7EnglishComponent,
-                lesson8_component_7.ROTLesson8EnglishComponent,
-                lesson9_component_7.ROTLesson9EnglishComponent,
-                lesson10_component_7.ROTLesson10EnglishComponent,
-                lesson11_component_7.ROTLesson11EnglishComponent,
-                lesson12_component_7.ROTLesson12EnglishComponent,
-                lesson13_component_1.ROTLesson13EnglishComponent,
+                lesson1_component_7.DTPLesson1EnglishComponent,
+                lesson2_component_7.DTPLesson2EnglishComponent,
+                lesson3_component_7.DTPLesson3EnglishComponent,
+                lesson4_component_7.DTPLesson4EnglishComponent,
+                lesson5_component_7.DTPLesson5EnglishComponent,
+                lesson6_component_7.DTPLesson6EnglishComponent,
+                lesson7_component_7.DTPLesson7EnglishComponent,
+                lesson8_component_7.DTPLesson8EnglishComponent,
+                lesson9_component_7.DTPLesson9EnglishComponent,
+                lesson10_component_7.DTPLesson10EnglishComponent,
+                lesson11_component_7.DTPLesson11EnglishComponent,
+                lesson12_component_7.DTPLesson12EnglishComponent,
+                lesson1_component_8.DTPLesson1SpanishComponent,
+                lesson2_component_8.DTPLesson2SpanishComponent,
+                lesson3_component_8.DTPLesson3SpanishComponent,
+                lesson4_component_8.DTPLesson4SpanishComponent,
+                lesson5_component_8.DTPLesson5SpanishComponent,
+                lesson6_component_8.DTPLesson6SpanishComponent,
+                lesson7_component_8.DTPLesson7SpanishComponent,
+                lesson8_component_8.DTPLesson8SpanishComponent,
+                lesson9_component_8.DTPLesson9SpanishComponent,
+                lesson10_component_8.DTPLesson10SpanishComponent,
+                lesson11_component_8.DTPLesson11SpanishComponent,
+                lesson12_component_8.DTPLesson12SpanishComponent,
+                lesson1_component_9.ROTLesson1EnglishComponent,
+                lesson2_component_9.ROTLesson2EnglishComponent,
+                lesson3_component_9.ROTLesson3EnglishComponent,
+                lesson4_component_9.ROTLesson4EnglishComponent,
+                lesson5_component_9.ROTLesson5EnglishComponent,
+                lesson6_component_9.ROTLesson6EnglishComponent,
+                lesson7_component_9.ROTLesson7EnglishComponent,
+                lesson8_component_9.ROTLesson8EnglishComponent,
+                lesson9_component_9.ROTLesson9EnglishComponent,
+                lesson10_component_9.ROTLesson10EnglishComponent,
+                lesson11_component_9.ROTLesson11EnglishComponent,
+                lesson12_component_9.ROTLesson12EnglishComponent,
+                lesson13_component_3.ROTLesson13EnglishComponent,
                 lesson14_component_1.ROTLesson14EnglishComponent,
                 lesson15_component_1.ROTLesson15EnglishComponent,
                 lesson16_component_1.ROTLesson16EnglishComponent,
@@ -340,19 +372,19 @@ var AppModule = (function () {
                 lesson23_component_1.ROTLesson23EnglishComponent,
                 lesson24_component_1.ROTLesson24EnglishComponent,
                 lesson25_component_1.ROTLesson25EnglishComponent,
-                lesson1_component_8.ROTLesson1SpanishComponent,
-                lesson2_component_8.ROTLesson2SpanishComponent,
-                lesson3_component_8.ROTLesson3SpanishComponent,
-                lesson4_component_8.ROTLesson4SpanishComponent,
-                lesson5_component_8.ROTLesson5SpanishComponent,
-                lesson6_component_8.ROTLesson6SpanishComponent,
-                lesson7_component_8.ROTLesson7SpanishComponent,
-                lesson8_component_8.ROTLesson8SpanishComponent,
-                lesson9_component_8.ROTLesson9SpanishComponent,
-                lesson10_component_8.ROTLesson10SpanishComponent,
-                lesson11_component_8.ROTLesson11SpanishComponent,
-                lesson12_component_8.ROTLesson12SpanishComponent,
-                lesson13_component_2.ROTLesson13SpanishComponent,
+                lesson1_component_10.ROTLesson1SpanishComponent,
+                lesson2_component_10.ROTLesson2SpanishComponent,
+                lesson3_component_10.ROTLesson3SpanishComponent,
+                lesson4_component_10.ROTLesson4SpanishComponent,
+                lesson5_component_10.ROTLesson5SpanishComponent,
+                lesson6_component_10.ROTLesson6SpanishComponent,
+                lesson7_component_10.ROTLesson7SpanishComponent,
+                lesson8_component_10.ROTLesson8SpanishComponent,
+                lesson9_component_10.ROTLesson9SpanishComponent,
+                lesson10_component_10.ROTLesson10SpanishComponent,
+                lesson11_component_10.ROTLesson11SpanishComponent,
+                lesson12_component_10.ROTLesson12SpanishComponent,
+                lesson13_component_4.ROTLesson13SpanishComponent,
                 lesson14_component_2.ROTLesson14SpanishComponent,
                 lesson15_component_2.ROTLesson15SpanishComponent,
                 lesson16_component_2.ROTLesson16SpanishComponent,
@@ -379,7 +411,33 @@ var AppModule = (function () {
                 mexicofinances_component_1.MexicoFinancesComponent,
                 perupsychology_component_1.PeruPsychologyComponent,
                 phipsychology_component_1.PhiPsychologyComponent,
-                mexicopsychology_component_1.MexicoPsychologyComponent],
+                mexicopsychology_component_1.MexicoPsychologyComponent,
+                lesson1_component_5.CLLesson1EnglishComponent,
+                lesson2_component_5.CLLesson2EnglishComponent,
+                lesson3_component_5.CLLesson3EnglishComponent,
+                lesson4_component_5.CLLesson4EnglishComponent,
+                lesson5_component_5.CLLesson5EnglishComponent,
+                lesson6_component_5.CLLesson6EnglishComponent,
+                lesson7_component_5.CLLesson7EnglishComponent,
+                lesson8_component_5.CLLesson8EnglishComponent,
+                lesson9_component_5.CLLesson9EnglishComponent,
+                lesson10_component_5.CLLesson10EnglishComponent,
+                lesson11_component_5.CLLesson11EnglishComponent,
+                lesson12_component_5.CLLesson12EnglishComponent,
+                lesson1_component_6.CLLesson1SpanishComponent,
+                lesson2_component_6.CLLesson2SpanishComponent,
+                lesson3_component_6.CLLesson3SpanishComponent,
+                lesson4_component_6.CLLesson4SpanishComponent,
+                lesson5_component_6.CLLesson5SpanishComponent,
+                lesson6_component_6.CLLesson6SpanishComponent,
+                lesson7_component_6.CLLesson7SpanishComponent,
+                lesson8_component_6.CLLesson8SpanishComponent,
+                lesson9_component_6.CLLesson9SpanishComponent,
+                lesson10_component_6.CLLesson10SpanishComponent,
+                lesson11_component_6.CLLesson11SpanishComponent,
+                lesson12_component_6.CLLesson12SpanishComponent,
+                lesson13_component_2.CLLesson13SpanishComponent,
+                lesson13_component_1.CLLesson13EnglishComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

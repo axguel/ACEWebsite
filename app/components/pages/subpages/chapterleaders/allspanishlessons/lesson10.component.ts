@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   moduleId:module.id,
-  selector: 'dutytoleadlesson10spanish',
+  selector: 'chleadershiplesson10spanish',
   templateUrl: 'lesson10.component.html'
 })
-export class DTLLesson10SpanishComponent {
+export class CLLesson10SpanishComponent {
 }

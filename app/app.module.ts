@@ -15,6 +15,9 @@ import {SideMenuDutytoProsperComponent} from './components/sidemenudutytoprosper
 import {SideMenuDutytoProsperSpanishComponent} from './components/sidemenudutytoprosper/sidemenudutytoprosperspanish.component';
 import {SideMenuRuleofThumbComponent} from './components/sidemenuruleofthumb/sidemenuruleofthumb.component';
 import {SideMenuRuleofThumbSpanishComponent} from './components/sidemenuruleofthumb/sidemenuruleofthumbspanish.component';
+
+import {SideMenuChleadershipComponent} from './components/sidemenuchapterleaders/sidemenuchleadership.component';
+import {SideMenuChleadershipSpanishComponent} from './components/sidemenuchapterleaders/sidemenuchleadershipspanish.component';
 //the main pages
 import {HomeComponent} from './components/pages/home.component';
 import {AboutComponent} from './components/pages/about.component';
@@ -130,6 +133,38 @@ import {DTLLesson10SpanishComponent} from './components/pages/subpages/dutytolea
 import {DTLLesson11SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson11.component';
 import {DTLLesson12SpanishComponent} from './components/pages/subpages/dutytolead/allspanishlessons/lesson12.component';
 
+//englishchleadership
+
+import {CLLesson1EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson1.component';
+import {CLLesson2EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson2.component';
+import {CLLesson3EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson3.component';
+import {CLLesson4EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson4.component';
+import {CLLesson5EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson5.component';
+import {CLLesson6EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson6.component';
+import {CLLesson7EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson7.component';
+import {CLLesson8EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson8.component';
+import {CLLesson9EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson9.component';
+import {CLLesson10EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson10.component';
+import {CLLesson11EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson11.component';
+import {CLLesson12EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson12.component';
+import {CLLesson13EnglishComponent} from './components/pages/subpages/chapterleaders/allenglishlessons/lesson13.component';
+
+//spanishchapterleaders
+
+import {CLLesson1SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson1.component';
+import {CLLesson2SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson2.component';
+import {CLLesson3SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson3.component';
+import {CLLesson4SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson4.component';
+import {CLLesson5SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson5.component';
+import {CLLesson6SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson6.component';
+import {CLLesson7SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson7.component';
+import {CLLesson8SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson8.component';
+import {CLLesson9SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson9.component';
+import {CLLesson10SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson10.component';
+import {CLLesson11SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson11.component';
+import {CLLesson12SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson12.component';
+import {CLLesson13SpanishComponent} from './components/pages/subpages/chapterleaders/allspanishlessons/lesson13.component';
+
 //englishdutytoprosper
 
 import {DTPLesson1EnglishComponent} from './components/pages/subpages/dutytoprosper/allenglishlessons/lesson1.component';
@@ -233,6 +268,8 @@ import {routing} from './app.routing';
                   SideMenuDutytoProsperSpanishComponent,
                   SideMenuRuleofThumbComponent, 
                   SideMenuRuleofThumbSpanishComponent,
+                  SideMenuChleadershipComponent,
+                  SideMenuChleadershipSpanishComponent,
                   JumbotronComponent,
                   FooterComponent,
                   HomeComponent,
@@ -394,7 +431,33 @@ import {routing} from './app.routing';
                   MexicoFinancesComponent,
                   PeruPsychologyComponent,
                   PhiPsychologyComponent,
-                  MexicoPsychologyComponent ],
+                  MexicoPsychologyComponent,
+                  CLLesson1EnglishComponent,
+                  CLLesson2EnglishComponent,
+                  CLLesson3EnglishComponent,
+                  CLLesson4EnglishComponent,
+                  CLLesson5EnglishComponent,
+                  CLLesson6EnglishComponent,
+                  CLLesson7EnglishComponent,
+                  CLLesson8EnglishComponent,
+                  CLLesson9EnglishComponent,
+                  CLLesson10EnglishComponent,
+                  CLLesson11EnglishComponent,
+                  CLLesson12EnglishComponent,
+                  CLLesson1SpanishComponent,
+                  CLLesson2SpanishComponent,
+                  CLLesson3SpanishComponent,
+                  CLLesson4SpanishComponent,
+                  CLLesson5SpanishComponent,
+                  CLLesson6SpanishComponent,
+                  CLLesson7SpanishComponent,
+                  CLLesson8SpanishComponent,
+                  CLLesson9SpanishComponent,
+                  CLLesson10SpanishComponent,
+                  CLLesson11SpanishComponent,
+                  CLLesson12SpanishComponent,
+                  CLLesson13SpanishComponent,
+                  CLLesson13EnglishComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
